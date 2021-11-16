@@ -1,0 +1,10 @@
+amarelo
+vermelho
+azul
+red
+green
+blue
+rosa
+roxo
+lilas
+salmon

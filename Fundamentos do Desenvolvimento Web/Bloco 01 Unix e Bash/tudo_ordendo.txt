@@ -1,0 +1,16 @@
+amarelo
+azul
+banana
+blue
+feijoada
+green
+laranja
+lilas
+limão
+mamão
+melão
+red
+rosa
+roxo
+salmon
+vermelho
