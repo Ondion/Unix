@@ -1,2 +1,2 @@
-#### Trybe
- Aporte de material de estudos.
+Trybe
+Aporte de material de estudos.
