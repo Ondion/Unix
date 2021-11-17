@@ -7,4 +7,4 @@ blue
 rosa
 roxo
 lilas
-salmo
+salmon
