@@ -65,8 +65,17 @@ Mostra as dez últimas linhas ou saidas de um aquivo.
 Mostra as cinco últimas linhas de um arquivo ou saida.  
 
 ```grep``` | ```exemplo: grep palavra arquivo.txt```  
-Faz uma busca no arquivo pela palavra especificada, a busca é case-sensitive  
+Faz uma busca no arquivo pela palavra especificada, à busca é case-sensitive.  
 
-```grep -i``` | ```exemplo: grep -i arquivo.txt```  
-Faz uma busca no arquivo pela palavra especificada, a busca _**não**_ é case-sensitive  
+```grep -i``` | ```exemplo: grep -i palavra arquivo.txt```  
+Faz uma busca no arquivo pela palavra especificada, à busca _**não**_ é case-sensitive.  
+
+```grep``` | ```exemplo: grep 'busca de frase' arquivo.txt```  
+Faz uma busca no arquivo pela frase especificada, à busca é case-sensitive.  
+
+```grep -i``` | ```exemplo: grep -i 'busca de frase' arquivo.txt```  
+Faz uma busca no arquivo pela frase especificada, à busca _**não**_ é case-sensitive.  
+
+```grep -iv``` | ```exemplo: grep -iv 'busca de frase' arquivo.txt```  
+Faz uma busca no arquivo _**por tudo, menos à frase especificada**_, à busca _**não**_ é case-sensitive.  
 
