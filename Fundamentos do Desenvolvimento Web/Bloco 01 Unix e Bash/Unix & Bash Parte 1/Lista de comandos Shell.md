@@ -7,6 +7,12 @@ Lista todos os diretórios e arquivos dentro do atual diretório.
 ```ls -a``` | ```exemplo: ls -a```  
 Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos.  
 
+```ls *``` | ```exemplo: ls *.txt```  
+Lista todos os arquivos que contenham a extensão especificada.  
+
+```ls *``` | ```exemplo: ls palavra*```  
+Lista todos os arquivos ou diretórios que contenham a busca especificada.  
+
 ```cd``` | ```exemplo: cd user```  
 Muda o diretório atual para o apontado.  
 
@@ -78,4 +84,22 @@ Faz uma busca no arquivo pela frase especificada, à busca _**não**_ é case-se
 
 ```grep -iv``` | ```exemplo: grep -iv 'busca de frase' arquivo.txt```  
 Faz uma busca no arquivo _**por tudo, menos à frase especificada**_, à busca _**não**_ é case-sensitive.  
+
+```grep -in``` | ```exemplo: grep -in palavra arquivo.txt```  
+Faz uma busca pela palavra especificada e exibe a linha da ocorrência, à busca _**não**_ é case-sensitive.  
+
+```grep -ic``` | ```exemplo: grep -ic palavra arquivo.txt```  
+Faz uma busca pela palavra especificada e exibe a quantidade de ocorrências, à busca _**não**_ é case-sensitive.  
+
+```wc``` | ```wc arquivo.txt```  
+Exibe a quantidade de linhas, palavras e caractéres de um arquivo.  
+
+```wc -w``` | ```wc -w arquivo.txt```  
+Exibe a quantidade de palavras de um arquivo.  
+
+```wc -l``` | ```wc -l arquivo.txt```  
+Exibe a quantidade de linhas de um arquivo.  
+
+```wc -c``` | ```wc -c arquivo.txt```  
+Exibe a quantidade de caractéres de um arquivo.  
 
