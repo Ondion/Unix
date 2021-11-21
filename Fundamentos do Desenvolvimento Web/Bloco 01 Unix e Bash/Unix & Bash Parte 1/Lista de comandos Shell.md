@@ -1,11 +1,17 @@
 # Lista de Comandos
 
 
-```ls``` | ```exemplo: ll```  
+```ls``` | ```exemplo: ls```  
 Lista todos os diretórios e arquivos dentro do atual diretório.  
 
 ```ls -a``` | ```exemplo: ls -a```  
 Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos.  
+
+```ll``` | ```exemplo: ll```  
+Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos e adiciona especificações sobre propriedade e permissividade do arquivo.  
+
+```ls *``` | ```exemplo: ls *```  
+Lista todos os arquivos e diretórios abaixo do diretório atual.  
 
 ```ls *``` | ```exemplo: ls *.txt```  
 Lista todos os arquivos que contenham a extensão especificada.  
