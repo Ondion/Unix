@@ -17,17 +17,16 @@ Basicamente o Unix se divide em três partes:
 
     * Aplicativos, que são os softwares e rotinas ultilizados no sistema operacional.
 
-Processos e Arquivos.
+**Processos e Arquivos.**
 Todo comando executado no Unix é chamado de processo e, todo processo, tem um PID que carrega informações como: Usuário proprietário do processo, sessão do shell, o estado, linha de comando, dentre outras informações.
 
 Já arquivos são vistos pelo sistema operacional como tudo que é armazenado, tais como diretórios e seu conteúdo.
 
 
-EXEMPLO DE CAMINHO NO UNIX: /Users/User/Documents
+**Exemplo de caminho no Unix:** /Users/User/Documents
 Onde a "/" é o diretório root, inicial na arvore de hierarquia.
 EXEMPLO DE IDENTIFICAÇÃO DE ARQUIVO:
 
--rww-r--r-- 1 dono_do_arquivo grupo 3820 Apr 6 16:22 nome_do_arquivo.txt
+**-rww-r--r-- 1 dono_do_arquivo grupo 3820 Apr 6 16:22 nome_do_arquivo.txt**
 
 onde consta as informações: Tipo do arquivo, permissões, hard links, dono, grupo, tamanho, data e hora da última modificação e nome.
-
