@@ -10,11 +10,13 @@ Lista todos os diretórios e arquivos dentro do atual diretório inclusive os oc
 ```cd``` | ```exemplo: cd user```  
 Muda o diretório atual para o apontado.  
 
-```cd .``` | ```exemplo: cd .``` *Users/Usuário :arrow_right: Users/Usuário*  
+```cd .``` | ```exemplo: cd .```  
 Muda o diretório para o diretório . ou seja, atualiza o diretório atual.  
+*Users/Usuário :arrow_right: Users/Usuário*  
 
-```cd ..``` | ```exemplo: cd ..``` *Users/Usuário :arrow_right: Users*    
+```cd ..``` | ```exemplo: cd ..```  
 Muda para o diretório anterior ao atual.  
+*Users/Usuário :arrow_right: Users*  
 
 ```clear``` | ```exemplo: clear```  
 Limpa o terminal de comandos.   
@@ -56,9 +58,13 @@ Mostra as dez primeiras linhas de um arquivo ou saida.
 ```head -5``` | ```exemplo: head -5```  
 Mostra as cinco primeiras linhas de um arquivo ou saida.    
 
-```tail``` | ```exemplo: tail -5```  
+```tail``` | ```exemplo: tail```  
 Mostra as dez últimas linhas ou saidas de um aquivo.  
 
 ```tail -5``` | ```exemplo: tail -5```  
 Mostra as cinco últimas linhas de um arquivo ou saida.  
 
+```grep``` | ```exemplo: grep palavra arquivo.txt```  
+Faz uma busca no arquivo   
+
+```grep -i``` | ```exemplo: grep -i arquivo.txt```  
