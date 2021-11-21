@@ -97,15 +97,27 @@ Faz uma busca pela palavra especificada e exibe a linha da ocorrência, à busca
 ```grep -ic``` | ```exemplo: grep -ic palavra arquivo.txt```  
 Faz uma busca pela palavra especificada e exibe a quantidade de ocorrências, à busca _**não**_ é case-sensitive.  
 
-```wc``` | ```wc arquivo.txt```  
+```wc``` | ```exemplo: wc arquivo.txt```  
 Exibe a quantidade de linhas, palavras e caractéres de um arquivo.  
 
-```wc -w``` | ```wc -w arquivo.txt```  
+```wc -w``` | ```exemplo: wc -w arquivo.txt```  
 Exibe a quantidade de palavras de um arquivo.  
 
-```wc -l``` | ```wc -l arquivo.txt```  
+```wc -l``` | ```exemplo: wc -l arquivo.txt```  
 Exibe a quantidade de linhas de um arquivo.  
 
-```wc -c``` | ```wc -c arquivo.txt```  
+```wc -c``` | ```exemplo: wc -c arquivo.txt```  
 Exibe a quantidade de caractéres de um arquivo.  
+
+```?``` | ```exemplo: cat ??quivo.txt```  
+Usado como coringa, faz uma busca no diretório atual e avalia qual arquivo ou diretório se encaixa melhor na descrição e realiza a troca automática dos caractéres marcados com "?".    
+
+```man``` | ```exemplo: man ls```  
+Exibe o manual do comando especificado.  
+
+```whatis``` | ```exemplo: whatis cp```  
+Exibe uma preve descrição do funcionamento do comando especificado.  
+
+```apropos``` | ```exemplo: apropos copy```  
+Faz uma busca de comandos que realizem a condição especificada, a busca é realizada no manual.  
 
