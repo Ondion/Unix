@@ -46,3 +46,19 @@ Remove diretório e arquivos de forma forçada.
 ```rmdir``` | ```exemplo: rmdir```  
 Apaga um diretório, desde que vazio.  
 
+```less``` | ```exemplo: less arquivo.txt```  
+Exibe o conteúdo de um arquivo de forma paginada. "space" para proxima pagina, "q" para sair.   
+Durante a exibição do arquivo, "/" realiza uma busca por palavra.    
+
+```head``` | ```exemplo: head arquivo.txt```  
+Mostra as dez primeiras linhas de um arquivo ou saida.    
+
+```head -5``` | ```exemplo: head -5```  
+Mostra as cinco primeiras linhas de um arquivo ou saida.    
+
+```tail``` | ```exemplo: tail -5```  
+Mostra as dez últimas linhas ou saidas de um aquivo.  
+
+```tail -5``` | ```exemplo: tail -5```  
+Mostra as cinco últimas linhas de um arquivo ou saida.  
+
