@@ -19,4 +19,12 @@ Muda para o diretório anterior ao atual.
 ```clear``` | ```exemplo: clear```  
 Limpa o terminal de comandos   
 
-```mkdir``` | ```exemplo: mkdir nova_pasta``` ou ``` exemplo: mkdir 'nova pasta'```  
+```mkdir``` | ```exemplo: mkdir nova_pasta``` *ou* ```exemplo: mkdir 'nova pasta'```  
+Cria um novo diretório na pasta atual.  
+
+```mkdir /``` | ```exemplo: mkdir /home/user```  
+Cria um novo diretório no local apontado no comando.  
+
+```pwd``` | ```exemplo: pwd```  
+Mostra o caminho completo até o diretório atual.  
+
