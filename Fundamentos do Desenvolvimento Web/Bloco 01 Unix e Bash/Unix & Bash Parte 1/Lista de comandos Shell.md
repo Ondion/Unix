@@ -7,6 +7,9 @@ Lista todos os diretórios e arquivos dentro do atual diretório.
 ```ls -a``` | ```exemplo: ls -a```  
 Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos.  
 
+```ls -l``` | ```exemplo: ls -l```  
+Lista todos os diretórios e arquivos dentro do atual diretório e exibe também informações sobre propriedade e permissividade.  
+
 ```ll``` | ```exemplo: ll```  
 Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos e adiciona especificações sobre propriedade e permissividade do arquivo.  
 
@@ -31,7 +34,10 @@ Muda para o diretório anterior ao atual.
 *Users/Usuário :arrow_right: Users*  
 
 ```clear``` | ```exemplo: clear```  
-Limpa o terminal de comandos.   
+Limpa o terminal de comandos.  
+
+```touch``` | ```exemplo: touch arquivo.txt```  
+Cria um arquivo vazio, ou se o arquivo já existir, atualiza a última modificação do mesmo.  
 
 ```mkdir``` | ```exemplo: mkdir nova_pasta``` *ou* ```exemplo: mkdir 'nova pasta'```  
 Cria um novo diretório na pasta atual.  
@@ -62,7 +68,8 @@ Apaga um diretório, desde que vazio.
 
 ```less``` | ```exemplo: less arquivo.txt```  
 Exibe o conteúdo de um arquivo de forma paginada. "space" para proxima pagina, "q" para sair.   
-Durante a exibição do arquivo, "/" realiza uma busca por palavra.    
+Durante a exibição do arquivo, "/" realiza uma busca por palavra  
+Durante a exibição do arquivo, "-i" realiza uma busca por palavra _**não case-sensitive**_     
 
 ```head``` | ```exemplo: head arquivo.txt```  
 Mostra as dez primeiras linhas de um arquivo ou saida.    
