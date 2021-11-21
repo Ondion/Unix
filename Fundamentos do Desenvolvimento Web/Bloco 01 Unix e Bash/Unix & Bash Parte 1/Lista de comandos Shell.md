@@ -13,6 +13,6 @@ Muda o diretório atual para o apontado.
 ``` cd . ``` | ``` exemplo: cd . ``` *Users/Usuário :arrow_right: Users/Usuário*  
 Muda o diretório para o diretório . ou seja, o deretório atual.  
 
-``` cd .. ``` | ``` exemplo: cd .. ```  
+``` cd .. ``` | ``` exemplo: cd .. ``` *Users/Usuário :arrow_right: Users*    
 Muda para o diretório anterior ao atual.  
 
