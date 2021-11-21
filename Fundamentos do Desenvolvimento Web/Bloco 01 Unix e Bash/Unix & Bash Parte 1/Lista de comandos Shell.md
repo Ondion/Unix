@@ -10,7 +10,7 @@ Lista todos os diretórios e arquivos dentro do atual diretório inclusive os oc
 ``` cd ``` | ``` exemplo: cd user ```  
 Muda o diretório atual para o apontado.  
 
-``` cd . ``` | ``` exemplo: cd . ``` | Users/Usuário >>> User Users/Usuário  
+``` cd . ``` | ``` exemplo: cd . ``` *Users/Usuário >>> User Users/Usuário*  
 Muda o diretório para o diretório . ou seja, o deretório atual.  
 
 ``` cd .. ``` | ``` exemplo: cd .. ```  
