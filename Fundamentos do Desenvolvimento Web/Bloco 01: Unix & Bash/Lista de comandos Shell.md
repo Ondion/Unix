@@ -1,6 +1,8 @@
 # Lista de Comandos
 
 
+
+
 ```ls``` | ```exemplo: ls```  
 Lista todos os diretórios e arquivos dentro do atual diretório.  
 
@@ -53,6 +55,9 @@ Cria uma cópia de um arquivo na pasta atual.
 
 ```cat``` | ```exemplo: cat```  
 Mostra o conteúdo de um arquivo.  
+
+```cat >``` | ```exemplo: cat > text.txt```  
+Cria o arquivo listado como parâmetro e em seguida o console espera as entradas do arquivo.  
 
 ```mv``` | ```exemplo: mv arquivo.txt /Users/User/Documents```  
 Move um arquivo para o local especificado.  
