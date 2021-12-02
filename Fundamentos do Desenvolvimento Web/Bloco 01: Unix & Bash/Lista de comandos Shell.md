@@ -1,12 +1,33 @@
 # Lista de Comandos
 
+`sudo apt install` | `exemplo: sudo apt install code`  
+Realiza a instalação de um pacote  
 
+`sudo apt remove` | `exemplo: sudo apt remove code`  
+Realiza a remoção de um pacote  
 
+`apt -cache depends` | `exemplo: apt -cache depends code`  
+Realiza a uma busca de dependências de um pacote.  
 
-`ls` | ```exemplo: ls```  
+`alias` | `exemplo: alias cls=clear`  
+Cria um "apelido" para um outro comando especifico. Os alias são encerrados quando o terminal é fechado.  
+
+`whoami` | `exemplo: whoami`  
+Exibe o atual usuário logado no sistema.  
+
+`date` | `exemplo: date`  
+Exibe a data do sistema.  
+
+`echo` | `exemplo: echo repete essa linha`  
+Repete o comando inserido, ecoa.  
+
+`host` | `exemplo: host www.google.com`  
+Exibe as informações de host da URL informada.  
+
+`ls` | `exemplo: ls`  
 Lista todos os diretórios e arquivos dentro do atual diretório.  
 
-```ls -a``` | ```exemplo: ls -a```  
+`ls -a` | `exemplo: ls -a`  
 Lista todos os diretórios e arquivos dentro do atual diretório inclusive os ocultos.  
 
 ```ls -l``` | ```exemplo: ls -l```  
