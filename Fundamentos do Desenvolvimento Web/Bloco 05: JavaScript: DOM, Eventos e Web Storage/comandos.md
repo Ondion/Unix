@@ -17,8 +17,10 @@ document.getElementById("ID do elemento").innerText = "Alterando só o texto pel
 document.getElementsByClassName("classe do elemento");
 **Retorna uma lista, é necessário fazer uma interação para modificação, ou passar a posição no indice.**
 
-tag = document.getElementsByTagName("TAG do elemento");
+document.getElementsByTagName("TAG do elemento");
 **Retorna uma lista, é necessário fazer uma interação para modificação, ou passar a posição no indice.**
 
-document.querySelector("#test2")
+document.querySelector("ID ou Classe do elemento")
+
+document.querySelectorAll("ID ou Classe do elemento")
 
