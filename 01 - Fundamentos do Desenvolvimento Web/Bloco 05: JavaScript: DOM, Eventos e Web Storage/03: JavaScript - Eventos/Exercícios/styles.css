@@ -1,29 +1,24 @@
 .car1 {
     height: 100px;
-    background-image: url(https://img2.gratispng.com/20180311/xse/kisspng-compact-car-vector-motors-corporation-clip-art-orange-vector-car-5aa4b901b52179.1033550215207447057419.jpg);
+    background-image: url(01.png);
     background-size: cover;
     width: 150px;
-    padding: auto;
 }
-.car2 {
+    .car2 {
     height: 100px;
-    background-image: url(https://img2.gratispng.com/20180217/hvw/kisspng-school-bus-free-content-clip-art-travel-bus-cliparts-5a8870d99ec457.3623143915188912256503.jpg);
+    background-image: url(02.png);
     background-size: cover;
     width: 150px;
-    padding: auto;
-    border-left: 350px;
 }
 .car3 {
     height: 100px;
-    background-image: url(https://img2.gratispng.com/20210510/hxq/transparent-transportation-icon-car-icon-6099a85e592fe1.4780520116206828463653.jpg);
+    background-image: url(03.png);
     background-size: cover;
     width: 150px;
-    padding: auto;
 }
 .car4 {
     height: 100px;
-    background-image: url(https://img2.gratispng.com/20210615/xq/transparent-model-car-car-play-vehicle-automotive-industry-mic-60c8ef576d53b3.6699962916237812074478.jpg);
+    background-image:  url(04.png);
     background-size: cover;
     width: 150px;
-    padding: auto;
 }
