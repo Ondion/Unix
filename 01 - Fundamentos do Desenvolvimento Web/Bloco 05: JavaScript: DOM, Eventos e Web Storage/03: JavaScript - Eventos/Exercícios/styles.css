@@ -22,3 +22,12 @@
     background-size: cover;
     width: 150px;
 }
+.title-heading{
+    font-family: monospace;
+    padding: 10px;
+    text-align: center;
+    background-color:crimson;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
