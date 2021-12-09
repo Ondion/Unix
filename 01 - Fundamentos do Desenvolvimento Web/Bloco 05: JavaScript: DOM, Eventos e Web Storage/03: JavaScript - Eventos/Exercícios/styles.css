@@ -1,33 +1,40 @@
-.car1 {
+.square1 {
     height: 100px;
     background-image: url(01.png);
     background-size: cover;
-    width: 150px;
+    width: 100px;
 }
-    .car2 {
+.square2 {
     height: 100px;
     background-image: url(02.png);
     background-size: cover;
-    width: 150px;
+    width: 100px;
 }
-.car3 {
+.square3 {
     height: 100px;
     background-image: url(03.png);
     background-size: cover;
-    width: 150px;
+    width: 100px;
 }
-.car4 {
+.square4 {
     height: 100px;
     background-image:  url(04.png);
     background-size: cover;
-    width: 150px;
+    width: 100px;
 }
 .title-heading{
     font-family: monospace;
     padding: 10px;
-    text-align: center;
     background-color:crimson;
     color: white;
     font-weight: bolder;
     font-size: xx-large;
+}
+.center{
+    padding: 10px;
+    text-align: center;
+}
+.square-section{
+    padding-top: 20px;
+    text-align:left;
 }
