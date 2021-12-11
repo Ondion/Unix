@@ -15,7 +15,7 @@ Basicamente o Unix se divide em três partes:
     * TCSH
     * ZSH
 
-**Aplicativos**, que são os softwares e rotinas ultilizados no sistema operacional.
+**Aplicativos**, que são os softwares e rotinas utilizados no sistema operacional.
 
 **Processos e Arquivos.**
 Todo comando executado no Unix é chamado de processo e, todo processo, tem um PID que carrega informações como: Usuário proprietário do processo, sessão do shell, o estado, linha de comando, dentre outras informações.
