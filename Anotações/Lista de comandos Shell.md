@@ -86,6 +86,9 @@ Concatena arquivos e exibe o conteúdo.
 ```cat >``` | ```exemplo: cat > text.txt```  
 Cria o arquivo listado como parâmetro e em seguida o console espera as entradas do arquivo.  
 
+```cat (1) (2) > (3)``` | ```exemplo: cat arquivo1.txt arquivo2.txt > arquivoNovo.txt```  
+Concatena dois arquivos em um terceiro.  
+
 ```mv``` | ```exemplo: mv arquivo.txt /Users/User/Documents```  
 Move um arquivo para o local especificado.  
 
