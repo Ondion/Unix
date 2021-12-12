@@ -235,11 +235,35 @@ Troca a password do usuário passado através do superusuário.
 ```shutdown``` | ```shutdown```  
 Desliga o sistema após um minuto.  
 
-```shutdown``` | ```shutdown now```  
+```shutdown now``` | ```shutdown now```  
 Desliga o sistema imediatamente.  
 
-```shutdown``` | ```shutdown 23:00 Texto a ser exibido antes do shutdown agendado para as 23:00``  
+```shutdown <time> <text>``` | ```shutdown 23:00 Texto a ser exibido antes do shutdown agendado para as 23:00``  
 Desliga o sistema imediatamente.  
+
+```shutdown -c``` | ```shutdown -c```  
+Cancela o shutdown agendado.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
 
 ```x``` | ```x```  
 X.  
