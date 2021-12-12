@@ -154,3 +154,45 @@ Exibe uma preve descrição do funcionamento do comando especificado.
 ```apropos``` | ```exemplo: apropos copy```  
 Faz uma busca de comandos que realizem a condição especificada, a busca é realizada no manual.  
 
+```curl``` | ```exemplo: curl https://exemplo.com.br```  
+Comando para recuperar informações por meio de URL.
+
+```df``` | ```exemplo: df```  
+Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual.  
+
+```df -h``` | ```exemplo: df```  
+Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual atualizando as informações de bytes para MB e GB.  
+
+```diff``` | ```exemplo: diff arquivo1.txt arquivo2.txt```  
+Exibe a diferença entre dois arquivos.  
+
+```diff -y``` | ```exemplo: diff -y arquivo1.txt arquivo2.txt```  
+Exibe a diferença entre dois arquivos lado a lado no terminal.  
+
+```exit``` | ```exemplo: exit```  
+Encerra a sessão atual do terminal.  
+
+```find``` | ```find .```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro. Neste exemplo exibe todos os diretórios a partir da pasta atual.    
+
+```find``` | ```find . -name arquivo.txt```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo case sensitive.  
+
+```find``` | ```find . -iname ArquiVo.*```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo não-case sensitive    
+
+```find``` | ```find . -iname *.txt```  
+Faz a bisca em todos os diretórios, neste exemplo o todos os arquivos com a extensão txt.   
+
+```free``` | ```exemplo: free```  
+Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em Bytes.  
+
+```free -h``` | ```exemplo: free -h```  
+Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em GB e MB.  
+
+```groups``` | ```exemplo: groups usuário```  
+Ex  
+
+```exit``` | ```exemplo: exit```  
+Encerra a sessão atual do terminal.  
+
