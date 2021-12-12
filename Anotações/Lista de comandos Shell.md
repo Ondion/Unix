@@ -1,4 +1,4 @@
-<h1 style ="text-align: center;">Lista de Comandos</h1>
+# Lista de Comandos
 
 `sudo apt install` | `exemplo: sudo apt install code`  
 Realiza a instalação de um pacote  
@@ -45,6 +45,9 @@ Lista todos os arquivos que contenham a extensão especificada.
 ```ls *``` | ```exemplo: ls palavra*```  
 Lista todos os arquivos ou diretórios que contenham a busca especificada.  
 
+```ls {x,y}``` | ```ls {html,css,js}```  
+Lista todos os arquivos que contém parte do texto passado entre as chaves.  
+
 ```cd``` | ```exemplo: cd user```  
 Muda o diretório atual para o apontado.  
 
@@ -74,8 +77,11 @@ Mostra o caminho completo até o diretório atual.
 ```cp``` | ```exemplo: cp arquivo.txt arquivo_2.txt```  
 Cria uma cópia de um arquivo na pasta atual.  
 
-```cat``` | ```exemplo: cat```  
+```cat``` | ```exemplo: cat arquivo.txt```  
 Mostra o conteúdo de um arquivo.  
+
+```cat``` | ```exemplo: cat arquivo.txt arquivo2.txt```  
+Concatena arquivos e exibe o conteúdo.  
 
 ```cat >``` | ```exemplo: cat > text.txt```  
 Cria o arquivo listado como parâmetro e em seguida o console espera as entradas do arquivo.  
@@ -143,7 +149,7 @@ Exibe a quantidade de linhas de um arquivo.
 Exibe a quantidade de caracteres de um arquivo.  
 
 ```?``` | ```exemplo: cat ??quivo.txt```  
-Usado como coringa, faz uma busca no diretório atual e avalia qual arquivo ou diretório se encaixa melhor na descrição e realiza a troca automática dos carácteres marcados com "?".    
+Usado como coringa, faz uma busca no diretório atual e avalia qual arquivo ou diretório se encaixa melhor na descrição e realiza a troca automática dos caracteres marcados com "?".    
 
 ```man``` | ```exemplo: man ls```  
 Exibe o manual do comando especificado.  
@@ -154,3 +160,110 @@ Exibe uma preve descrição do funcionamento do comando especificado.
 ```apropos``` | ```exemplo: apropos copy```  
 Faz uma busca de comandos que realizem a condição especificada, a busca é realizada no manual.  
 
+```curl``` | ```exemplo: curl https://exemplo.com.br```  
+Comando para recuperar informações por meio de URL.
+
+```df``` | ```exemplo: df```  
+Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual.  
+
+```df -h``` | ```exemplo: df```  
+Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual atualizando as informações de bytes para MB e GB.  
+
+```diff``` | ```exemplo: diff arquivo1.txt arquivo2.txt```  
+Exibe a diferença entre dois arquivos.  
+
+```diff -y``` | ```exemplo: diff -y arquivo1.txt arquivo2.txt```  
+Exibe a diferença entre dois arquivos lado a lado no terminal.  
+
+```exit``` | ```exemplo: exit```  
+Encerra a sessão atual do terminal.  
+
+```find``` | ```find .```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro. Neste exemplo exibe todos os diretórios a partir da pasta atual.    
+
+```find``` | ```find . -name arquivo.txt```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo case sensitive.  
+
+```find``` | ```find . -iname ArquiVo.*```  
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo não-case sensitive    
+
+```find``` | ```find . -iname *.txt```  
+Faz a bisca em todos os diretórios, neste exemplo o todos os arquivos com a extensão txt.   
+
+```free``` | ```exemplo: free```  
+Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em Bytes.  
+
+```free -h``` | ```exemplo: free -h```  
+Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em GB e MB.  
+
+```groups``` | ```exemplo: groups usuário```  
+Exibe os grupos que o usuário passado como parâmetro pertence.    
+
+```exit``` | ```exemplo: exit```  
+Encerra a sessão atual do terminal.  
+
+```uptime``` | ```exemplo: uptime```  
+Exibe uma linha com a data e horário do sistema.  
+
+```history``` | ```exemplo: history```   
+Exibe um histórico com todos os comandos executados no shell até o presente momento.  
+
+***Ctrol + r*** | ```atalho de teclado```  
+Faz uma busca reversa por comandos digitados no shell no passado.  
+
+```zip``` | ```exemplo: zip arquivo```
+Compacta arquivos no formato zip.  
+
+```unzip``` | ```exemplo: unzip arquivo.zip```  
+Descompacta arquivos no formato zip.  
+
+```sort``` | ```exemplo: sort arquivo.txt```  
+Organiza em ordem alfabética, por linhas, o conteúdo do arquivo, não modifica o arquivo original.  
+
+```bc``` | ```bc```   
+Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de comando para os calculos.  
+
+```nano``` | ```exemplo: nano arquivo.txt```  
+Abre um editor de texto no terminal.  
+
+```passwd``` | ```passwd```  
+Troca a password do usuário atual.  
+
+```passwd``` | ```sudo passwd usuário```  
+Troca a password do usuário passado através do superusuário.  
+
+```shutdown``` | ```shutdown```  
+Desliga o sistema após um minuto.  
+
+```shutdown now``` | ```shutdown now```  
+Desliga o sistema imediatamente.  
+
+```shutdown <time> <text>``` | ```shutdown 23:00 Texto a ser exibido antes do shutdown agendado para as 23:00``  
+Desliga o sistema imediatamente.  
+
+```shutdown -c``` | ```shutdown -c```  
+Cancela o shutdown agendado.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
