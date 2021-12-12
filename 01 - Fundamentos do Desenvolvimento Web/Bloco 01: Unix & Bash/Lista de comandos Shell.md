@@ -226,5 +226,15 @@ Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de 
 ```nano``` | ```exemplo: nano arquivo.txt```  
 Abre um editor de texto no terminal.  
 
-```x``` | ```x```  
-X.  
+```passwd``` | ```passwd```  
+Troca a password do usuário atual.  
+
+```passwd``` | ```sudo passwd usuário```  
+Troca a password do usuário passado através do superusuário.  
+
+```shutdown``` | ```shutdown```  
+Desliga o sistema após um minuto.  
+
+```shutdown``` | ```shutdown now```  
+Desliga o sistema imediatamente.  
+
