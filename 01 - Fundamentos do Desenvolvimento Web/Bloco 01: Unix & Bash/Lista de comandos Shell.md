@@ -74,8 +74,11 @@ Mostra o caminho completo até o diretório atual.
 ```cp``` | ```exemplo: cp arquivo.txt arquivo_2.txt```  
 Cria uma cópia de um arquivo na pasta atual.  
 
-```cat``` | ```exemplo: cat```  
+```cat``` | ```exemplo: cat arquivo.txt```  
 Mostra o conteúdo de um arquivo.  
+
+```cat``` | ```exemplo: cat arquivo.txt arquivo2.txt```  
+Concatena arquivos e exibe o conteúdo.  
 
 ```cat >``` | ```exemplo: cat > text.txt```  
 Cria o arquivo listado como parâmetro e em seguida o console espera as entradas do arquivo.  
@@ -210,4 +213,13 @@ Compacta arquivos no formato zip.
 
 ```unzip``` | ```exemplo: unzip arquivo.zip```  
 Descompacta arquivos no formato zip.  
+
+```sort``` | ```exemplo: sort arquivo.txt```  
+Organiza em ordem alfabética, por linhas, o conteúdo do arquivo, não modifica o arquivo original.  
+
+```bc``` | ```bc```   
+Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de comando para os calculos.  
+
+```nano``` | ```exemplo: nano arquivo.txt```  
+Abre um editor de texto no terminal.  
 
