@@ -247,11 +247,19 @@ Desliga o sistema imediatamente.
 ```shutdown -c``` | ```shutdown -c```  
 Cancela o shutdown agendado.  
 
-```x``` | ```x```  
-X.  
+```who``` | ```exemplo: who```  
+Exibe informações sobre o usuário local e permissões de grupo.  
 
-```x``` | ```x```  
-X.  
+```chmod``` | ```chmod xxx arquivo```  
+Altera a permissão rwx de um arquivo, conforme tabela:  
+ * rwx = 111 ( 7 | Acesso Total )
+ * r-- = 100 ( 4 | Somente Leitura )
+ * -w- = 010 ( 2 | Somente Escrita )
+ * --x = 001 ( 1 | Somente Execução )
+ * rw- = 110 ( 6 | Somente Leitura e Escrita )
+ * r-x = 101 ( 5 | Somente Leitura e Execução )
+ * -wx = 011 ( 3 | Somente Escrita e Execução )
+ * --- = 000 ( 0 | Todos Acessos Negados )  
 
 ```x``` | ```x```  
 X.  
