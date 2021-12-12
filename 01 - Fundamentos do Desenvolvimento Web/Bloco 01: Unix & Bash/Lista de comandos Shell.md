@@ -45,6 +45,9 @@ Lista todos os arquivos que contenham a extensão especificada.
 ```ls *``` | ```exemplo: ls palavra*```  
 Lista todos os arquivos ou diretórios que contenham a busca especificada.  
 
+```ls {x,y}``` | ```ls {html,css,js}```  
+Lista todos os arquivos que contém parte do texto passado entre as chaves.  
+
 ```cd``` | ```exemplo: cd user```  
 Muda o diretório atual para o apontado.  
 
@@ -224,5 +227,4 @@ Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de 
 Abre um editor de texto no terminal.  
 
 ```x``` | ```x```  
-update
- 
+X.  
