@@ -131,7 +131,7 @@ Faz uma busca pela palavra especificada e exibe a linha da ocorrência, à busca
 Faz uma busca pela palavra especificada e exibe a quantidade de ocorrências, à busca _**não**_ é case-sensitive.  
 
 ```wc``` | ```exemplo: wc arquivo.txt```  
-Exibe a quantidade de linhas, palavras e caractéres de um arquivo.  
+Exibe a quantidade de linhas, palavras e caracteres de um arquivo.  
 
 ```wc -w``` | ```exemplo: wc -w arquivo.txt```  
 Exibe a quantidade de palavras de um arquivo.  
@@ -140,10 +140,10 @@ Exibe a quantidade de palavras de um arquivo.
 Exibe a quantidade de linhas de um arquivo.  
 
 ```wc -c``` | ```exemplo: wc -c arquivo.txt```  
-Exibe a quantidade de caractéres de um arquivo.  
+Exibe a quantidade de caracteres de um arquivo.  
 
 ```?``` | ```exemplo: cat ??quivo.txt```  
-Usado como coringa, faz uma busca no diretório atual e avalia qual arquivo ou diretório se encaixa melhor na descrição e realiza a troca automática dos caractéres marcados com "?".    
+Usado como coringa, faz uma busca no diretório atual e avalia qual arquivo ou diretório se encaixa melhor na descrição e realiza a troca automática dos caracteres marcados com "?".    
 
 ```man``` | ```exemplo: man ls```  
 Exibe o manual do comando especificado.  
@@ -198,4 +198,10 @@ Encerra a sessão atual do terminal.
 
 ```uptime``` | ```exemplo: uptime```  
 exibe uma linha com a data e horário do sistema.  
+
+```history``` | ```exemplo: history```   
+Exibe um histórico com todos os comandos executados no shell até o presente momento.  
+
+***Ctrol + r*** | ```atalho de teclado```  
+Faz uma busca reversa por comandos digitados no shell no passado.  
 
