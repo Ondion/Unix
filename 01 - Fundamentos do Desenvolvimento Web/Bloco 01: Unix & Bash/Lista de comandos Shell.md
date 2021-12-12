@@ -191,8 +191,11 @@ Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e liv
 Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em GB e MB.  
 
 ```groups``` | ```exemplo: groups usuário```  
-Ex  
+Exibe os grupos que o usuário passado como parâmetro pertence.    
 
 ```exit``` | ```exemplo: exit```  
 Encerra a sessão atual do terminal.  
+
+```uptime``` | ```exemplo: uptime```  
+exibe uma linha com a data e horário do sistema.  
 
