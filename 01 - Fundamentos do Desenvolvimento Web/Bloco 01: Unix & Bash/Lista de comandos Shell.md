@@ -238,3 +238,8 @@ Desliga o sistema após um minuto.
 ```shutdown``` | ```shutdown now```  
 Desliga o sistema imediatamente.  
 
+```shutdown``` | ```shutdown 23:00 Texto a ser exibido antes do shutdown agendado para as 23:00``  
+Desliga o sistema imediatamente.  
+
+```x``` | ```x```  
+X.  
