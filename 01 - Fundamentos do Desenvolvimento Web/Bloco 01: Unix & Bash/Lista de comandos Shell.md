@@ -224,4 +224,5 @@ Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de 
 Abre um editor de texto no terminal.  
 
 ```x``` | ```x```  
-x  
+update
+ 
