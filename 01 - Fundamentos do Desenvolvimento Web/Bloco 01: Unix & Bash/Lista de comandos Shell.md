@@ -223,3 +223,5 @@ Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de 
 ```nano``` | ```exemplo: nano arquivo.txt```  
 Abre um editor de texto no terminal.  
 
+```x``` | ```x```  
+x  
