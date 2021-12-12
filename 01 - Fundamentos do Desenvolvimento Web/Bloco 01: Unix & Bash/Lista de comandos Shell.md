@@ -197,11 +197,17 @@ Exibe os grupos que o usuário passado como parâmetro pertence.
 Encerra a sessão atual do terminal.  
 
 ```uptime``` | ```exemplo: uptime```  
-exibe uma linha com a data e horário do sistema.  
+Exibe uma linha com a data e horário do sistema.  
 
 ```history``` | ```exemplo: history```   
 Exibe um histórico com todos os comandos executados no shell até o presente momento.  
 
 ***Ctrol + r*** | ```atalho de teclado```  
 Faz uma busca reversa por comandos digitados no shell no passado.  
+
+```zip``` | ```exemplo: zip arquivo```
+Compacta arquivos no formato zip.  
+
+```unzip``` | ```exemplo: unzip arquivo.zip```  
+Descompacta arquivos no formato zip.  
 
