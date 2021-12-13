@@ -8,4 +8,3 @@ Também temos hoje o GitHub, que é diferente do Git. O GitHub é um local para 
 Neste momento iremos atuar junto ao Git por linha de comando.   
 
 O Git usa o SHA1, um algoritmo de criptografia, um conjunto de funções hash. A saida dessa criptografia gera um conjunto de 40 caracteres únicos a partir do conteúdo do arquivo criptografado. *_Exemplo: ```(stdin)= 03c7085fb873c3b7fd2b1bde538f5b8e71f1cb9a```_*  
-
