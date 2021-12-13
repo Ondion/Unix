@@ -267,8 +267,8 @@ Exibe uma lista de processos em execução.
 ```sleep``` | ```sleep 5```  
 Pausa as execuções de processos pelo periodo em segundos passados como parâmetro.  
 
-```x``` | ```x```  
-X.  
+```sleep &``` | ```sleep 5 &```  
+Pausa as execuções de processos pelo periodo em segundos passados como parâmetro e coloca esse processo em background.  
 
 ```x``` | ```x```  
 X.  
