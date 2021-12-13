@@ -18,7 +18,7 @@ Exibe o atual usuário logado no sistema.
 `date` | `exemplo: date`  
 Exibe a data do sistema.  
 
-`echo` | `exemplo: echo repete essa linha`  
+`echo` | `exemplo: echo "repete essa linha"`  
 Repete o comando inserido, ecoa.  
 
 `host` | `exemplo: host www.google.com`  
@@ -182,9 +182,9 @@ Exibe a diferença entre dois arquivos lado a lado no terminal.
 Encerra a sessão atual do terminal.  
 
 ```find``` | ```find .```  
-Faz uma busca em todos os diretórios a partir do local passado como parâmetro. Neste exemplo exibe todos os diretórios a partir da pasta atual.    
+Faz uma busca em todos os diretórios a partir do local passado como parâmetro. Neste exemplo exibe todos os diretórios e arquivos a partir da pasta atual.    
 
-```x``` | ```x```  
+```find``` | ```find -type d```  
 X.  
 
 ```x``` | ```x```  
@@ -197,7 +197,7 @@ Faz uma busca em todos os diretórios a partir do local passado como parâmetro,
 Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo não-case sensitive    
 
 ```find``` | ```find . -iname *.txt```  
-Faz a bisca em todos os diretórios, neste exemplo o todos os arquivos com a extensão txt.   
+Faz a busca em todos os diretórios, neste exemplo o todos os arquivos com a extensão txt.   
 
 ```free``` | ```exemplo: free```  
 Exibe detalhes sobre a memória RAM do sistema, como uso, quantidade usada e livre, dentre outros, em quantidades em Bytes.  
