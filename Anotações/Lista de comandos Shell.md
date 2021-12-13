@@ -273,8 +273,8 @@ Pausa as execuções de processos pelo periodo em segundos passados como parâme
 ```bg``` | ```bg```  
 Coloca um processo que atualmente está em foreground para background.  
 
-```x``` | ```x```  
-X.  
+```&``` | ```<processo> &```  
+O 'E' comercial coloca um processo em background quando adicionado como parâmetro no momento da declaração desse processo.  
 
 ```x``` | ```x```  
 X.  
