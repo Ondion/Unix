@@ -4,5 +4,5 @@
 ```git init```  
 *_Inicializa a pasta atual do terminal como repositório git_*  
 
-```git config --global```  
-*_Seta de formal global as configurações do autor do re_*  
+```git config --global user.email "emailDoAutor@aqui.com"```  
+*_Seta de formal global as configurações do autor do repositório_*  
