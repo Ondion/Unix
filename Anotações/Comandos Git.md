@@ -4,5 +4,5 @@
 ```git init```  
 *_Inicializa a pasta atual do terminal como repositório git_*  
 
-```git ```  
-*_X_*  
+```git config --global```  
+*_Seta de formal global as configurações do autor do re_*  
