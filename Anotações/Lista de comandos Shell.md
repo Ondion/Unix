@@ -264,8 +264,8 @@ Altera a permissão rwx de um arquivo, conforme tabela:
 ```ps``` | ```ps```  
 Exibe uma lista de processos em execução.  
 
-```x``` | ```x```  
-X.  
+```sleep``` | ```sleep 5```  
+Pausa as execuções de processos pelo periodo em segundos passados como parâmetro.  
 
 ```x``` | ```x```  
 X.  
