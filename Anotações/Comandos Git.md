@@ -13,3 +13,5 @@
 ```git *```  
 *_Adiciona todos os arquivos modificados ao stage, tracked, ou seja, ficam prontos para o commit._*  
 
+```git commit -m "text de identificação do commit"```  
+*_Realiza o commit no repositório local, junto com o texto descritivo sobre _*  
