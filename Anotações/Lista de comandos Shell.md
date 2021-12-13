@@ -279,14 +279,14 @@ O 'E' comercial coloca um processo em background quando adicionado como parâmet
 ```jobs``` | ```jobs```  
 Lista todos os processos declarados em execução no momento.  
 
-```fg``` | ```fg %(numero lista do processo)```  
+```fg``` | ```fg %(número lista do processo)```  
 Continua um processo suspenso ou trás ele do background para o foreground.  
 
-```kill``` | ```kill %(numero lista do processo)```  
+```kill %``` | ```kill %(número lista do processo)```  
 Encerra um processo em background.  
 
-```x``` | ```x```  
-X.  
+```kill``` | ```kill (PID)```  
+Encerra um processo em background pelo número PID.  
 
 ```x``` | ```x```  
 X.  
