@@ -4,5 +4,5 @@
 ```git init```  
 *_Inicializa a pasta atual do terminal como repositório git_*  
 
-```git```  
+```git ```  
 *_X_*  
