@@ -6,3 +6,6 @@
 
 ```git config --global user.email "emailDoAutor@aqui.com"```  
 *_Seta de formal global as configurações do autor do repositório_*  
+
+```git config --global user.name```  
+*_X_*  
