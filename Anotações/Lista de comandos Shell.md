@@ -261,8 +261,8 @@ Altera a permissão rwx de um arquivo, conforme tabela:
  * -wx = 011 ( 3 | Somente Escrita e Execução )
  * --- = 000 ( 0 | Todos Acessos Negados )  
 
-```x``` | ```x```  
-X.  
+```ps``` | ```ps```  
+Exibe uma lista de processos em execução.  
 
 ```x``` | ```x```  
 X.  
