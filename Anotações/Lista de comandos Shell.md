@@ -211,7 +211,7 @@ Exibe uma linha com a data e horário do sistema.
 ```history``` | ```exemplo: history```   
 Exibe um histórico com todos os comandos executados no shell até o presente momento.  
 
-***Ctrol + r*** | ```atalho de teclado```  
+***Ctrl + r*** | ```atalho de teclado```  
 Faz uma busca reversa por comandos digitados no shell no passado.  
 
 ```zip``` | ```exemplo: zip arquivo```
@@ -290,6 +290,36 @@ Encerra um processo em background pelo número PID.
 
 ```kill -9``` | ```kill -9 (PID)```  
 Encerra um processo em background pelo número PID de maneira forçada.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
+
+```x``` | ```x```  
+X.  
 
 ```x``` | ```x```  
 X.  
