@@ -303,47 +303,5 @@ Encerra um processo em background pelo número PID.
 ```kill -9``` | ```kill -9 (PID)```  
 Encerra um processo em background pelo número PID de maneira forçada.  
 
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
-
-```x``` | ```x```  
-X.  
+```top``` | ```top```  
+Exibe em tempo real todos os processos internos do sistema e o consumo dos mesmos.  
