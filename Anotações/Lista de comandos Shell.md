@@ -288,8 +288,8 @@ Encerra um processo em background.
 ```kill``` | ```kill (PID)```  
 Encerra um processo em background pelo número PID.  
 
-```x``` | ```x```  
-X.  
+```kill -9``` | ```kill -9 (PID)```  
+Encerra um processo em background pelo número PID de maneira forçada.  
 
 ```x``` | ```x```  
 X.  
