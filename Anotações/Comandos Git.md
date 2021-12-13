@@ -11,4 +11,5 @@
 *_Seta de forma global as configurações de usuário do autor do repositório. ESSA CONFIG É NECESSÁRIA APENAS NO PRIMEIRO USO DO GIT NA MAQUINA._*  
 
 ```git *```  
-*__*  
+*_Adiciona todos os arquivos modificados ao stage, tracked, ou seja, ficam prontos para o commit._*  
+
