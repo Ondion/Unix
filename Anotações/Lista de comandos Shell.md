@@ -188,7 +188,13 @@ Faz uma busca em todos os diretórios a partir do local passado como parâmetro.
 Localiza todos os arquivos do tipo txt a partir da pasta atual.  
 
 ```find``` | ```find . -type d```  
-Localiza todos os diretórios a partir do local. 
+Localiza todos os diretórios a partir do local.  
+
+```find``` | ```find . -type f```  
+Localiza todos os arquivos a partir do diretório atual.  
+
+```find``` | ```find . -name "exemplo*"```  
+Localiza todos os arquivos e diretórios a partir do diretório atual.  
 
 ```find``` | ```find . -name arquivo.txt```  
 Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo case sensitive.  
