@@ -6,3 +6,5 @@ Hoje o Git é um padrão de mercado, porém, não é o unico software versionado
 Também temos hoje o GitHub, que é diferente do Git. O GitHub é um local para armazenar remotamente o código versionado pelo Git. Assim como o Git, o GitHub não é o unico local para armazenar códigos, existem outros sistemas que oferecem serviço parecido.  
   
 Neste momento iremos atuar junto ao Git por linha de comando.   
+
+O Git usa o SHA1, um algoritmo de criptografia, um conjunto de funções hash. A saida dessa criptografia gera um conjunto de 40 caracteres únicos a partir do conteúdo do arquivo criptografado.
