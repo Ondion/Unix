@@ -184,11 +184,11 @@ Encerra a sessão atual do terminal.
 ```find``` | ```find .```  
 Faz uma busca em todos os diretórios a partir do local passado como parâmetro. Neste exemplo exibe todos os diretórios e arquivos a partir da pasta atual.    
 
-```find``` | ```find -type d```  
-X.  
+```find``` | ```find . -name "*.txt"```  
+Localiza todos os arquivos do tipo txt a partir da pasta atual.  
 
-```x``` | ```x```  
-X. 
+```find``` | ```find . -type d```  
+Localiza todos os diretórios a partir do local. 
 
 ```find``` | ```find . -name arquivo.txt```  
 Faz uma busca em todos os diretórios a partir do local passado como parâmetro, a busca é feita pelo nome do arquivo case sensitive.  
