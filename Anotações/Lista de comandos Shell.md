@@ -279,8 +279,8 @@ O 'E' comercial coloca um processo em background quando adicionado como parâmet
 ```jobs``` | ```jobs```  
 Lista todos os processos declarados em execução no momento.  
 
-```x``` | ```x```  
-X.  
+```fg``` | ```fg %(numero lista do processo)```  
+Continua um processo suspenso ou trás ele do background para o foreground.  
 
 ```x``` | ```x```  
 X.  
