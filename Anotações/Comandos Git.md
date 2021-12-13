@@ -10,3 +10,5 @@
 ```git config --global user.name UsuárioAqui```  
 *_Seta de forma global as configurações de usuário do autor do repositório. ESSA CONFIG É NECESSÁRIA APENAS NO PRIMEIRO USO DO GIT NA MAQUINA._*  
 
+```git *```  
+*__*  
