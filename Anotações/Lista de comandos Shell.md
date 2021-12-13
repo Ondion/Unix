@@ -282,8 +282,8 @@ Lista todos os processos declarados em execução no momento.
 ```fg``` | ```fg %(numero lista do processo)```  
 Continua um processo suspenso ou trás ele do background para o foreground.  
 
-```x``` | ```x```  
-X.  
+```kill``` | ```kill %(numero lista do processo)```  
+Encerra um processo em background.  
 
 ```x``` | ```x```  
 X.  
