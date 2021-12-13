@@ -276,8 +276,8 @@ Coloca um processo que atualmente está em foreground para background.
 ```&``` | ```<processo> &```  
 O 'E' comercial coloca um processo em background quando adicionado como parâmetro no momento da declaração desse processo.  
 
-```x``` | ```x```  
-X.  
+```jobs``` | ```jobs```  
+Lista todos os processos declarados em execução no momento.  
 
 ```x``` | ```x```  
 X.  
