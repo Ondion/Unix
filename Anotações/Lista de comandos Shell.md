@@ -270,8 +270,8 @@ Pausa as execuções de processos pelo periodo em segundos passados como parâme
 ```sleep &``` | ```sleep 5 &```  
 Pausa as execuções de processos pelo periodo em segundos passados como parâmetro e coloca esse processo em background.  
 
-```x``` | ```x```  
-X.  
+```bg``` | ```bg```  
+Coloca um processo que atualmente está em foreground para background.  
 
 ```x``` | ```x```  
 X.  
