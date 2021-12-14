@@ -23,14 +23,9 @@
 
 **Hyper-text Transfer Protocol (HTTP)** - Protocolo usado para comunicação entre navegador-cliente e servidor na Internet. cada requisição e resposta trocada entre cliente/servidor é uma única transação HTTP, toda a transação é feita por texto(bits) que é interpretado localmente.  
 
-**HTTP Headers** - O Header é a metadata que incluem o tipo de requisição (GET, POST, PUT, DELETE), o caminho URL, o endereço IP dentre outros. Para a página que estamos usando como exemplo, na sessão Response Headers os mais importantes são:
-Content-Type: text/plain Especifica como os dados são representados. Nesse exemplo, temos o texto sendo enviado como resposta no formato HTML.
-Server: GitHub.com Servidor Web para onde as requisições estão sendo feitas.
-Status: 200 OK Forma padrão para o servidor comunicar ao cliente sobre o resultado da requisição. O código 200 significa que o servidor encontrou o recurso e está enviando o resultado da requisição.
-Host: api.github.com Host da aplicação
-cookie: _octo=GH1.1.358825508.1593780201; _ga=GA1.2.60245099.1593780202; logged_in=yes; dotcom_user=isabellavjs; tz=America%2FSao_Paulo
-Novamente, você não precisa saber todos os pares de nome-valor. Saber onde encontrá-los no seu navegador é o suficiente para você começar a explorá-los conforme a sua necessidade.
-HTTP Body
+**HTTP Headers** - O Header é a metadata que incluem o tipo de requisição (GET, POST, PUT, DELETE), o caminho URL, o endereço IP dentre outros.  
+
+**HTTP Body** - É o corpo da mensagem que foi transmitida, 
 O servidor armazena então os dados (metadados) mais importantes para estabelecer uma comunicação com o cliente. O Body refere-se ao corpo da mensagem que está sendo transmitida. Você pode acessá-lo clicando em Response na barra superior. Para a requisição que fizemos, acessar a página https://github.com/, o body contém o HTML para a página que estamos querendo acessar. Para praticar, experimente navegar nos outros arquivos que foram retornados para o navegador após a requisição! Você pode acessá-los no menu disponível na barra lateral esquerda.
 
 Body.
