@@ -61,6 +61,9 @@
 ```git commit --amend```  
 *_Altera o comentário do ultimo commit enquanto ele estiver apenas local.  
 
+```git branch```  
+
+
 
 
 
