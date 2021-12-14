@@ -29,9 +29,9 @@
 
 **Método HTTP GET** - É utilizado para ler informações encaminhadas pelo servidor. As requisições GET são apenas para leitura, ou seja, não podem ser modificados pelo servidor. Requisições GET são respondidas com status 200 (OK) para sucesso, ou 404 (NOT FOUND) para página não encontrada.  
 
-**Método HTTP POST** - Cria um novo recurso, requisições POST são retornadas com o status code 201 (CREATED) e um novo caminho no header com o Link do recurso criado.
-PUT
-O método PUT é utilizado para atualizar o recurso identificado pelo URL. Esse método também pode ser utilizado para criar um novo recurso. Requisições PUT não são consideradas operações seguras, pois o estado da aplicação é modificado no servidor. No entanto, o método PUT é idempotente porque múltiplas requisições PUT para atualizar um recurso têm o mesmo efeito que uma única requisição.
+**Método HTTP POST** - Cria um novo recurso, requisições POST retornam o status code 201 (CREATED) e um novo caminho no header com o Link do recurso criado.  
+
+**Método HTTP PUT** - É utilizado para atualizar o recurso identificado pelo URL. Esse método também pode ser utilizado para criar um novo recurso. Requisições PUT não são consideradas operações seguras, pois o estado da aplicação é modificado no servidor. No entanto, o método PUT é idempotente porque múltiplas requisições PUT para atualizar um recurso têm o mesmo efeito que uma única requisição.
 A resposta a requisição é o status code 200 (OK) se o recurso foi atualizado com sucesso, ou 404 (NOT FOUND) se ele não for encontrado.
 DELETE
 DELETE é utilizado para deletar um recurso identificado pelo URL. As requisições DELETE são idempotentes, pois quando deletamos um recurso ele será deletado. Você pode fazer milhares de requisições com o método DELETE que no fim o resultado será o mesmo: um recurso deletado.
