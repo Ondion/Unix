@@ -16,8 +16,8 @@
 ```git add arquivo.html```  
 *_Adiciona o arquivo passado como parâmetro ao staged e após isso fica pronto para o commit._* 
 
-```git rm```  
-*_X_*  
+```git rm arquivo.html```  
+*_Remove o arquivo passado como parâmetro do tracked e após isso fica pronto para o commit._*  
 
 ```git commit -m "text de identificação do commit"```  
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
