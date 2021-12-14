@@ -13,4 +13,6 @@
 
 **Cliente** - É o termo dado a aplicação que está conectada a internet e dela faz solicitações.  
 
-**Servidor** - É um computador ou rede interna deles, que faz uso de da estrutura de comunicação da Internet para responder solicitações do cliente.  
+**Servidor** - É um computador ou rede interna deles, que faz uso de da estrutura de comunicação da Internet para responder solicitações do cliente. As principais funções de um servidor são: Armazenar, processar e entregar solicitações.  
+
+**Transmission Control Protocol/Internet Protocol**
