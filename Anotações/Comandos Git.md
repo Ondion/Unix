@@ -14,7 +14,10 @@
 *_Lista todas as configurações locais do Git, tais como e-mail, nome de usuário, URL do repositório local, etc..._*  
 
 ```git config --global --unset user.email```  
-*_Remove de forma global _*  
+*_Remove de forma global as configurações de e-mail do autor do repositório._*  
+
+```git config --global --unset user.name```  
+*_Remove de forma global as configurações de usuário do autor do repositório._*  
 
 ```git add *```  
 *_Adiciona todos os arquivos untracked e/ou modificados ao staged, novos arquivos passam a ser considerados tracked pelo git e após isso todos ficam prontos para o commit._*  
