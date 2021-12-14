@@ -37,5 +37,4 @@
 
 **Método HTTP REST ** - é a sigla para Representational State Transfer, uma arquitetura utilizado no design de aplicações Web, que manipula todos os outros verbos HTTP.  
 
-Curl
-Por fim, você vai aprender sobre o comando curl , abreviação para Client URL . Ele é um comando disponível na maioria dos sistemas baseados em Unix que serve para verificar conectividade, além transferir dados via terminal.
+**Client URL (Curl)** - É um comando disponível na maioria dos sistemas baseados em Unix que serve para verificar conectividade, além transferir dados via terminal.  
