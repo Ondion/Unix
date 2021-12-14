@@ -25,12 +25,7 @@
 
 ** (HTTP)** - 
 
-O protocolo HTTP
-
-Como vimos no vídeo acima, o funcionamento da Internet depende de regras, que são os protocolos. É através desses protocolos que conseguimos acessar páginas, fazer downloads, enviar emails. Dentre os protocolos, há dois que são frequentemente utilizados: o protocolo TCP/IP e o protocolo HTTP.
-O Protocolo TCP/IP, como vimos, é a base de envio e recebimento de dados de toda a Internet. É um conjunto de regras que permite a comunicação entre todas as máquinas conectadas à Internet.
-Vamos nos aprofundar um pouco mais sobre o que é o protocolo HTTP, quais seus principais verbos e o que significa ser RESTful ?
-Você já aprendeu que, no modelo Cliente-Servidor, a troca de mensagens acontece através de requisições e respostas: o Cliente envia uma requisição ao Servidor, que irá lhe retornar uma resposta. Com o grande volume de dados envolvidos nessa operação, gerenciar essas mensagens não é uma tarefa fácil. Assim, Cliente e Servidor aderem a uma linguagem comum, com regras que alinham as expectativas de ambas as partes, de forma que eles sabem exatamente o que esperar. Essa linguagem é o que chamamos de protocolo HTTP.
+ Assim, Cliente e Servidor aderem a uma linguagem comum, com regras que alinham as expectativas de ambas as partes, de forma que eles sabem exatamente o que esperar. Essa linguagem é o que chamamos de protocolo HTTP.
 Cada requisição e resposta trocada entre Cliente e Servidor é uma única transação HTTP. O HTTP é uma linguagem de texto, o que significa que as mensagens trocadas são quantificadas em bits. Cada mensagem é dividida em duas partes: o header e o body .
 É importante ter em mente que o HTTP por si só não consegue transmitir dados. Ele ainda depende do protocolo TCP/IP para pegar as requisições e respostas entre duas máquinas. O HTTP é uma camada de abstração que padroniza a forma com que os hosts se comunicam.
 Uma requisição ou resposta HTTP pura não é encriptada, sendo vulnerável a vários tipos de ataques. Por outro lado, HTTPS é uma forma mais segura de comunicação que utiliza a encriptação. Para adicionar mais essa camada de segurança, o HTTPS utiliza um segundo mecanismo de segurança: o SSL. Não se preocupe em entender os detalhes e as diferenças entre cada protocolo. Por hora, é interessante saber que eles existem. Websites grandes com milhares de usuários, como o Google e o Facebook, utilizam o protocolo HTTPS para manter as nossas senhas, informações pessoais e até mesmo detalhes de cartão de crédito em segurança na rede.
