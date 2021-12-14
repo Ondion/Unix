@@ -33,7 +33,7 @@
 
 **Método HTTP PUT** - É utilizado para atualizar o recurso URL. É método proximo ao POST para criar um novo recurso. Requisições PUT alteram o estado da aplicação no servidor. No entanto, o método PUT é idempotente, pois múltiplas requisições têm o mesmo efeito que uma única. Ele retorna o status code 200 (OK) para sucesso, ou 404 (NOT FOUND) se ele não for encontrado.  
 
-** Método HTDELETE é utilizado para deletar um recurso identificado pelo URL. As requisições DELETE são idempotentes, pois quando deletamos um recurso ele será deletado. Você pode fazer milhares de requisições com o método DELETE que no fim o resultado será o mesmo: um recurso deletado.
+** Método HTTP DELETE** - É utilizado para deletar um recurso identificado pelo URL. DELETE é idempotente, pois após deletamos um recurso ele será deletado. Você pode fazer milhares de requisições com o método DELETE que no fim o resultado será o mesmo: um recurso deletado.
 A resposta requisição é o status code 200 (OK) se o recurso for deletado com sucesso, ou 404 (NOT FOUND) se o recurso que será deletado não existir.
 REST
 Você pode já ter ouvido falar do termo RESTful para descrever uma aplicação. REST é a sigla para Representational State Transfer . É um estilo de arquitetura utilizado no design de aplicações Web. O estado da aplicação são os dados necessários para que o servidor possa atender a uma determinada requisição. As regras do REST nos guiam a desenvolver sistemas mais performáticos, escaláveis, simples, de fácil manutenção e modificação, portátil e confiável. Dentre elas, podemos destacar:
