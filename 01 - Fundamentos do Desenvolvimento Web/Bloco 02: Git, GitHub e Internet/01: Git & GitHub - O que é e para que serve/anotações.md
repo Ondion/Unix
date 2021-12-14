@@ -12,4 +12,6 @@ O Git usa o SHA1, um algoritmo de criptografia, um conjunto de funções hash. A
 Sobre os arquivos em um repositório git:  
  * Untracked = são arquivos que o git não "conhece" não estão sendo monitorados pelo git.  
  * Unmodified = arquivos que o git já conhece, porém não tem alteração desde o ultimo commit.  
- * Modified = arquivo monitorado pelo git e que sofreu alteração
+ * Modified = arquivo monitorado pelo git e que sofreu alteração.
+ * Staged = arquivo já pronto para o commit após ser adicionado pelo git add.
+
