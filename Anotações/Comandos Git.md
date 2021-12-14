@@ -13,6 +13,9 @@
 ```git *```  
 *_Adiciona todos os arquivos untracked e/ou modificados ao staged, novos arquivos passam a ser considerados tracked pelo git e após isso todos ficam prontos para o commit._*  
 
+```git arquivo.html```  
+*_Adiciona o arquivo passado como parâmetro ao staged e após isso fica pronto para o commit._* 
+
 ```git commit -m "text de identificação do commit"```  
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
 
