@@ -21,13 +21,8 @@
 
 **Uniform Resource Locators (URL)** - Identifica que tipo de solicitação e resposta obtivemos em uma página web e aplica o protocolo correto para o consumo da informação.  
 
-**Hyper-text Transfer Protocol (HTTP)** - Protocolo usado para comunicação entre navegador-cliente e servidor na Internet. cada requisição e resposta trocada entre cliente/servidor é uma única transação HTTP, toda a transação é feita por texto que é interpretado localmente.
+**Hyper-text Transfer Protocol (HTTP)** - Protocolo usado para comunicação entre navegador-cliente e servidor na Internet. cada requisição e resposta trocada entre cliente/servidor é uma única transação HTTP, toda a transação é feita por texto(bits) que é interpretado localmente.
 
-
-Cada requisição e resposta trocada entre Cliente e Servidor é uma única transação HTTP. O HTTP é uma linguagem de texto, o que significa que as mensagens trocadas são quantificadas em bits. Cada mensagem é dividida em duas partes: o header e o body .
-É importante ter em mente que o HTTP por si só não consegue transmitir dados. Ele ainda depende do protocolo TCP/IP para pegar as requisições e respostas entre duas máquinas. O HTTP é uma camada de abstração que padroniza a forma com que os hosts se comunicam.
-Uma requisição ou resposta HTTP pura não é encriptada, sendo vulnerável a vários tipos de ataques. Por outro lado, HTTPS é uma forma mais segura de comunicação que utiliza a encriptação. Para adicionar mais essa camada de segurança, o HTTPS utiliza um segundo mecanismo de segurança: o SSL. Não se preocupe em entender os detalhes e as diferenças entre cada protocolo. Por hora, é interessante saber que eles existem. Websites grandes com milhares de usuários, como o Google e o Facebook, utilizam o protocolo HTTPS para manter as nossas senhas, informações pessoais e até mesmo detalhes de cartão de crédito em segurança na rede.
-Vamos fazer uma segunda busca para entender sobre o protocolo HTTP. No seu navegador, busque por https://github.com/. Clique com o botão direito, selecione "Inspecionar" e procure por Network na barra superior. Navegue para o repositório da Trybe na sua barra de navegação com a janela de inspecionar aberta: https://github.com/betrybe/. Selecione o primeiro nome e a aba Headers . Você verá uma tela como a que é mostrada abaixo:
 
 Header.
 HTTP Headers
