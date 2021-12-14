@@ -1,3 +1,3 @@
 <h1 style="text-align: center;">Anotações sobre Internet</h1>
 <br>
-Internet Protocoll 
+Internet Protocol (IP) - Parte fundamental na comunicação das coisas pela internet, ele é o conjunto de regras para a comunicação entre diferentes tecnologias.   
