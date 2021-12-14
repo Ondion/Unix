@@ -25,7 +25,7 @@
 ```git status```  
 *_Monitora o estado do repositório exibindo informações como: untracked, modified, staged, informações sobre a branch, necessidade de commit, conflitos, working tree, etc..._*  
 
-```git```  
+```git config --list```  
 *_X_*  
 
 ```git```  
