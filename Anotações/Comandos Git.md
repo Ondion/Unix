@@ -76,7 +76,8 @@
 ```git merge (nomeDaBranch)```  
 *_Faz o merge entre duas branches, é necessário ter feito o checkin na branch que ira receber o conteúdo._*  
 
-
+```git```  
+*__*  
 
 
 
