@@ -52,5 +52,5 @@
 ```git pull```  
 *_Puxa do repositório remoto o ultimo commit realizado se estiver divergente do localizado local._*  
 
-```git```  
-*_X_*  
+```git clone (URL)```  
+*_Faz um clone de um repositório remoto para u_*  
