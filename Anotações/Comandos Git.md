@@ -41,10 +41,10 @@
 *_Exibe uma lista com os repositorios remotos cadastrados._*  
 
 ```git push origin main```  
-*_Comando para o primeiro push de um repositorio local para o remoto_*  
+*_Comando para o primeiro push de um repositorio local para o remoto._*  
 
 ```git push```  
-*_X_*  
+*_Envia os commits já staged para o repositório remoto._*  
 
 ```git```  
 *_X_*  
