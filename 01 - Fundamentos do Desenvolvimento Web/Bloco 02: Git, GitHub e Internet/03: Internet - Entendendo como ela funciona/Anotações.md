@@ -5,7 +5,6 @@
 
 **Autonomous System (AS)** - É a denominação dada aos serviços que fazem uso do IP para manter o funcionamento da Internet. Alguns exemplos desses AS são os provedores de serviços, provedores de acesso, provedores de transito, etc...  
 
-**Autonomous System Number (ASN)** - 
-
+**Autonomous System Number (ASN)** - Número de identificação que os AS recebem.  
 
 **Border Gateway Protocol (BGP)** - É o protocolo de roteamento usado nos sistemas AS para comunicação entre eles.  
