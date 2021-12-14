@@ -56,13 +56,13 @@
 *_Faz um clone de um repositório remoto criando um repositório local._*  
 
 ```git log```  
-*_Exibe o historico de commits feitos no repositório local_*  
+*_Exibe o historico de commits feitos no repositório local._*  
 
 ```git commit --amend```  
 *_Altera o comentário do ultimo commit enquanto ele estiver apenas local._*  
 
 ```git branch```  
-*_Exibe todas as branches locais do atual repositório_*  
+*_Exibe todas as branches locais do atual repositório._*  
 
 ```git branch (nomeDaBranch)```  
 *_Cria uma nova branch local._*  
@@ -70,7 +70,7 @@
 ```git checkout (nomeDaBranch)```  
 *_Faz a transição para a branch passada como parâmetro._*  
 
-```git```  
+```git checkout```  
 *__*  
 
 
