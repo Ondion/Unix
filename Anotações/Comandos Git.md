@@ -73,7 +73,8 @@
 ```git checkout -b (nomeDaBranch)```  
 *_Cria e já faz a transição para uma nova branch_*  
 
-
+```git merge (nomeDaBranch)```  
+*_Faz o merge entre duas branches, é necessário ter feito o checkin na branch que ira_*  
 
 
 
