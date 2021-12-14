@@ -17,3 +17,5 @@
 
 **Transmission Control Protocol/Internet Protocol (TCP/IP**) - É um protocolo que roda dentro do protocolo IP, usado para transmitir dados pela rede.  
 
+**Port Number** - 
+
