@@ -53,4 +53,5 @@
 *_Puxa do repositório remoto o ultimo commit realizado se estiver divergente do localizado local._*  
 
 ```git clone (URL)```  
-*_Faz um clone de um repositório remoto para u_*  
+*_Faz um clone de um repositório remoto criando um repositório local._*  
+
