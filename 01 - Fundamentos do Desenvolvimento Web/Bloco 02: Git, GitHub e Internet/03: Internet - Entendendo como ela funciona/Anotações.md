@@ -17,5 +17,7 @@
 
 **Transmission Control Protocol/Internet Protocol (TCP/IP**) - É um protocolo que roda dentro do protocolo IP, usado para transmitir dados pela rede.  
 
-**Port Number** - 
+**Port Number** - É um número de 16 bits, usado para identificar uma porta no servidor. ele sempre está associado a um número IP.  
+
+
 
