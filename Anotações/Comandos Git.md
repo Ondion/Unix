@@ -70,8 +70,10 @@
 ```git checkout (nomeDaBranch)```  
 *_Faz a transição para a branch passada como parâmetro._*  
 
-```git checkout```  
-*__*  
+```git checkout -b (nomeDaBranch)```  
+*_Cria e já faz a transição para uma nova branch_*  
+
+
 
 
 
