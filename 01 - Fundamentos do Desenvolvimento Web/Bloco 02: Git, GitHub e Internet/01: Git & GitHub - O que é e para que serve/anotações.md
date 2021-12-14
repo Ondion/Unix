@@ -9,9 +9,11 @@ O Git usa o SHA1, um algoritmo de criptografia, um conjunto de funções hash. A
 
 Autenticações via SSH e HTTPS  
 
-Existem duas formas para acessar o GitHub pelo terminal: HTTPS (Hypertext Transfer Protocol Secure) e SSH (Secure Shell). Ambas as formas são válidas, mas possuem algumas diferenças entre si:
-SSH ou Secure Shell : é um protocolo de criptografia de rede que serve para transferir dados de forma segura mesmo em redes inseguras. Usando o protocolo SSH, você pode se conectar ao GitHub sem precisar digitar seu nome e chave de acesso pessoal a cada comando executado.
-HTTPS ou Hypertext Transfer Protocol Secure : é uma extensão do protocolo de internet HTTP ( você verá mais sobre esse protocolo no dia de conteúdo que trata sobre internet! ) que utiliza certificados digitais para autenticar os dados e permitir que eles sejam criptografados de forma segura.
+Existem duas formas para acessar o GitHub pelo terminal: HTTPS (Hypertext Transfer Protocol Secure) e SSH (Secure Shell).  
+
+SSH ou Secure Shell : é um protocolo de criptografia de rede que serve para transferir dados de forma segura mesmo em redes inseguras. Usando o protocolo SSH, você pode se conectar ao GitHub sem precisar digitar seu nome e chave de acesso pessoal a cada comando executado.  
+<br>
+HTTPS ou Hypertext Transfer Protocol Secure : é uma extensão do protocolo de internet HTTP ( você verá mais sobre esse protocolo no dia de conteúdo que trata sobre internet! ) que utiliza certificados digitais para autenticar os dados e permitir que eles sejam criptografados de forma segura.  
 
 
 Sobre os arquivos em um repositório git:  
