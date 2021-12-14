@@ -17,13 +17,22 @@
 *_Adiciona o arquivo passado como parâmetro ao staged e após isso fica pronto para o commit._* 
 
 ```git rm arquivo.html```  
-*_Remove o arquivo passado como parâmetro do tracked e após isso fica pronto para o commit._*  
+*_Remove o arquivo passado como parâmetro do tracked e o passa para o untracked._*  
 
 ```git commit -m "text de identificação do commit"```  
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
 
 ```git status```  
 *_Monitora o estado do repositório exibindo informações como: untracked, modified, staged, informações sobre a branch, necessidade de commit, conflitos, working tree, etc..._*  
+
+```git```  
+*_X_*  
+
+```git```  
+*_X_*  
+
+```git```  
+*_X_*  
 
 ```git```  
 *_X_*  
