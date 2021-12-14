@@ -47,10 +47,10 @@
 *_Envia os commits já staged para o repositório remoto._*  
 
 ```git fetch```  
-*_X_*  
+*__*  
 
 ```git pull```  
-*_Puxa do reposit_*  
+*_Puxa do repositório remoto o ultimo commit realizado se estiver divergente do localizado local._*  
 
 ```git```  
 *_X_*  
