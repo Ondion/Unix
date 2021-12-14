@@ -17,4 +17,4 @@
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
 
 ```git status```  
-*_Monitora o estado do repositório_*  
+*_Monitora o estado do repositório exibindo informações dos arquivos como: untra modifie stage_*  
