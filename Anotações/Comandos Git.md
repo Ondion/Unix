@@ -16,5 +16,5 @@
 ```git commit -m "text de identificação do commit"```  
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
 
-```git```  
-*_X_*  
+```git status```  
+*_Monitora o estado do repositório_*  
