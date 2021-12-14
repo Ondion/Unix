@@ -55,3 +55,7 @@
 ```git clone (URL)```  
 *_Faz um clone de um repositório remoto criando um repositório local._*  
 
+```git log```  
+*_Exibe o historico de commits feitos no repositório local_*  
+
+
