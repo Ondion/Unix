@@ -62,7 +62,10 @@
 *_Altera o comentário do ultimo commit enquanto ele estiver apenas local._*  
 
 ```git branch```  
-*_Exibe todas as branches do atual repositório_*  
+*_Exibe todas as branches locais do atual repositório_*  
+
+```git branch (nomeDaBranch)```  
+*_Exibe todas as branches locais do atual repositório_*  
 
 
 
