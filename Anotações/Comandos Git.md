@@ -40,5 +40,17 @@
 ```git remote -v```  
 *_Exibe uma lista com os repositorios remotos cadastrados._*  
 
+```git push origin ```  
+*_X_*  
+
+```git```  
+*_X_*  
+
+```git```  
+*_X_*  
+
+```git```  
+*_X_*  
+
 ```git```  
 *_X_*  
