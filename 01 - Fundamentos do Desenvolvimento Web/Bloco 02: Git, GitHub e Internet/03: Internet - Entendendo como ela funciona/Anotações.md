@@ -35,14 +35,7 @@
 
 ** Método HTTP DELETE** - É utilizado para deletar um recurso identificado pelo URL. DELETE é idempotente, pois o recurso é deletado.le retorna o status code 200 (OK) para sucesso, ou 404 (NOT FOUND) se ele não for encontrado.  
 
-**Método HTTP REST ** - é a sigla para Representational State Transfer, uma arquitetura utilizado no design de aplicações Web. O estado da aplicação são os dados necessários para que o servidor possa atender a uma determinada requisição. As regras do REST nos guiam a desenvolver sistemas mais performáticos, escaláveis, simples, de fácil manutenção e modificação, portátil e confiável. Dentre elas, podemos destacar:
-Interface uniforme: define a interface entre cliente e servidor de forma a desacoplar a arquitetura da aplicação. Os verbos que vimos acima descrevem a grande maioria das regras para interface uniforme. Dentre as definições previstas pelo REST, as mais importantes são:
-Recursos, como dados de um banco de dados, devem ser identificados na requisição e o cliente terá acesso apenas a representação do recurso (ex: JSON, HTML)
-O cliente deve ter informações suficientes para manipular recursos no servidor utilizando representações
-As mensagens trocadas entre cliente e servidor devem ser auto-descritivas
-Stateless: Essa regra define que todos os dados do estado da aplicação que precisam ser manipulados em uma requisição devem estar contidos na própria requisição (URL, HTTP body, HTTP header) e o servidor deve encaminhar para o cliente todos os dados referentes ao estado na resposta (HTTP headers, status code, HTTP response body).
-O protocolo HTTP é uma peça chave na comunicação entre cliente-servidor. Para construir aplicações RESTFul é necessário compreender o básico de HTTP. Assim, você será capaz de criar páginas performáticas e escaláveis que farão a diferença na vida de muitos usuários!
-Agora responda ao quiz, lembrando que ele serve para fixação dos conteúdos e não tem caráter avaliativo , não se preocupe! 😉
-Quiz - Protocolo HTTP & REST
+**Método HTTP REST ** - é a sigla para Representational State Transfer, uma arquitetura utilizado no design de aplicações Web, que manipula todos os outros verbos HTTP.  
+
 Curl
 Por fim, você vai aprender sobre o comando curl , abreviação para Client URL . Ele é um comando disponível na maioria dos sistemas baseados em Unix que serve para verificar conectividade, além transferir dados via terminal.
