@@ -37,8 +37,8 @@
 ```git remote add origin (URL do repositorio GitHub)```  
 *_Empurra um repositório local para um repositório online, neste exemplo tomamos o GitHub como padrão._*  
 
-```git```  
-*_X_*  
+```git remote -v```  
+*_Exibe uma lista com os repositorios remotos cadastrados._*  
 
 ```git```  
 *_X_*  
