@@ -19,5 +19,7 @@
 
 **Port Number** - É um número de 16 bits, usado para identificar uma porta no servidor. ele sempre está associado a um número IP.  
 
+**Hyper-text Transfer Protocol (HTTP)** - Protocolo usado para comunicação entre navegador-cliente        o protocolo utilizado para a comunicação entre navegadores e servidores na Internet.  
 
+URL: O URL é a sigla para Uniform Resource Locators e identifica um recurso web específico. Podemos, como exemplo, mudar a nossa busca para https://www.google.com/travel/flights para pesquisar por preços de passagens aéreas. O URL identifica o protocolo que será utilizado para comunicarmos com o servidor (https), o nome do host (google.com) e o recurso que queremos acessar (travel/flights).
 
