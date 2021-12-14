@@ -27,8 +27,7 @@
 
 **HTTP Body** - É o corpo da mensagem que foi transmitida, o HTML por exemplo é transmitido pelo Body.  
 
-**Método HTTP GET** - É utilizado para ler informações encaminhadas pelo servidor. As requisições GET são apenas para leitura, ou seja, não podem ser modificados pelo servicor. Assim, esse tipo de requisição é considerada uma operação segura, pois o efeito retornado será sempre o mesmo, independentemente do número de requisições feitas. Assim sendo, dizemos que requisições GET são idempotentes , o que significa que o efeito da requisição no servidor será sempre o mesmo - fazer milhões de requisições GET para o mesmo URL tem o mesmo efeito que uma única requisição. O método GET apenas retorna dados.
-Requisições GET são respondidas com status 200 (OK) se o recurso que estamos querendo acessar for encontrado com sucesso, ou 404 (NOT FOUND) se a página não for encontrada.
+**Método HTTP GET** - É utilizado para ler informações encaminhadas pelo servidor. As requisições GET são apenas para leitura, ou seja, não podem ser modificados pelo servidor. Requisições GET são respondidas com status 200 (OK) para sucesso, ou 404 (NOT FOUND) se a página não for encontrada.
 
 404 - Page not found.
 POST
