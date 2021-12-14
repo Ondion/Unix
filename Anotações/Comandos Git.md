@@ -26,7 +26,7 @@
 *_Monitora o estado do repositório exibindo informações como: untracked, modified, staged, informações sobre a branch, necessidade de commit, conflitos, working tree, etc..._*  
 
 ```git config --list```  
-*_Lista todas as configurações locais do Git, tais como e-mail, nome de usuário_*  
+*_Lista todas as configurações locais do Git, tais como e-mail, nome de usuário, URL do repositório local, etc..._*  
 
 ```git```  
 *_X_*  
