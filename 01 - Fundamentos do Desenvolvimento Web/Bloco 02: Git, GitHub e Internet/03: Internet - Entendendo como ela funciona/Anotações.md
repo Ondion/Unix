@@ -35,7 +35,7 @@
 
 ** Método HTTP DELETE** - É utilizado para deletar um recurso identificado pelo URL. DELETE é idempotente, pois o recurso é deletado.le retorna o status code 200 (OK) para sucesso, ou 404 (NOT FOUND) se ele não for encontrado.  
 
-**Método HTTP REST ** - é a sigla para Representational State Transfer . É um estilo de arquitetura utilizado no design de aplicações Web. O estado da aplicação são os dados necessários para que o servidor possa atender a uma determinada requisição. As regras do REST nos guiam a desenvolver sistemas mais performáticos, escaláveis, simples, de fácil manutenção e modificação, portátil e confiável. Dentre elas, podemos destacar:
+**Método HTTP REST ** - é a sigla para Representational State Transfer, uma arquitetura utilizado no design de aplicações Web. O estado da aplicação são os dados necessários para que o servidor possa atender a uma determinada requisição. As regras do REST nos guiam a desenvolver sistemas mais performáticos, escaláveis, simples, de fácil manutenção e modificação, portátil e confiável. Dentre elas, podemos destacar:
 Interface uniforme: define a interface entre cliente e servidor de forma a desacoplar a arquitetura da aplicação. Os verbos que vimos acima descrevem a grande maioria das regras para interface uniforme. Dentre as definições previstas pelo REST, as mais importantes são:
 Recursos, como dados de um banco de dados, devem ser identificados na requisição e o cliente terá acesso apenas a representação do recurso (ex: JSON, HTML)
 O cliente deve ter informações suficientes para manipular recursos no servidor utilizando representações
