@@ -11,4 +11,6 @@
 
 **Domain Name System (DNS)** - Sistema que gerencia nomes de redes vs IPs dos mesmos, são hospedados em servidores que respondem a solicitações do cliente.  
 
-**Cliente** - 
+**Cliente** - É o termo dado a aplicação que está conectada a internet e dela faz solicitações.  
+
+ 
