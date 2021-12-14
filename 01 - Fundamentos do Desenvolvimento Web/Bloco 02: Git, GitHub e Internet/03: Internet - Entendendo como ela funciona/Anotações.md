@@ -8,3 +8,5 @@
 **Autonomous System Number (ASN)** - Número de identificação que os AS recebem.  
 
 **Border Gateway Protocol (BGP)** - É o protocolo de roteamento usado nos sistemas AS para comunicação entre eles.  
+
+**Domain Name System (DNS)** - Sistema que gerencia nomes de redes, 
