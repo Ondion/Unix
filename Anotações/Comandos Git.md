@@ -10,6 +10,9 @@
 ```git config --global user.name UsuárioAqui```  
 *_Seta de forma global as configurações de usuário do autor do repositório. ESSA CONFIG É NECESSÁRIA APENAS NO PRIMEIRO USO DO GIT NA MAQUINA._*  
 
+```git config --list```  
+*_Lista todas as configurações locais do Git, tais como e-mail, nome de usuário, URL do repositório local, etc..._*  
+
 ```git add *```  
 *_Adiciona todos os arquivos untracked e/ou modificados ao staged, novos arquivos passam a ser considerados tracked pelo git e após isso todos ficam prontos para o commit._*  
 
