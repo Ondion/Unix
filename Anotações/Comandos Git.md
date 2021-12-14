@@ -46,7 +46,7 @@
 ```git push```  
 *_Envia os commits já staged para o repositório remoto._*  
 
-```git```  
+```git pull```  
 *_X_*  
 
 ```git```  
