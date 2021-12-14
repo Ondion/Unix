@@ -59,9 +59,10 @@
 *_Exibe o historico de commits feitos no repositório local_*  
 
 ```git commit --amend```  
-*_Altera o comentário do ultimo commit enquanto ele estiver apenas local.  
+*_Altera o comentário do ultimo commit enquanto ele estiver apenas local._*  
 
 ```git branch```  
+*_Exibe todas as branches do atual repositório_*  
 
 
 
