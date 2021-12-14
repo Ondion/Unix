@@ -17,4 +17,4 @@
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
 
 ```git status```  
-*_Monitora o estado do repositório exibindo informações dos arquivos como: untracked, modified, staged, etc..._*  
+*_Monitora o estado do repositório exibindo informações como: untracked, modified, staged, informações sobre a branch, necessidade de commit, conflitos, etc_*  
