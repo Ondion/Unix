@@ -67,8 +67,8 @@
 ```git branch (nomeDaBranch)```  
 *_Cria uma nova branch local._*  
 
-```git```  
-*__*  
+```git checkout (nomeDaBranch)```  
+*_Faz a transição para a branch passada como parâmetro._*  
 
 ```git```  
 *__*  
