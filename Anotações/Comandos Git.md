@@ -65,7 +65,13 @@
 *_Exibe todas as branches locais do atual repositório_*  
 
 ```git branch (nomeDaBranch)```  
-*_Exibe todas as branches locais do atual repositório_*  
+*_Cria uma nova branch local._*  
+
+```git```  
+*__*  
+
+```git```  
+*__*  
 
 
 
