@@ -46,11 +46,11 @@
 ```git push```  
 *_Envia os commits já staged para o repositório remoto._*  
 
-```git pull```  
+```git fetch```  
 *_X_*  
 
-```git```  
-*_X_*  
+```git pull```  
+*_Puxa do reposit_*  
 
 ```git```  
 *_X_*  
