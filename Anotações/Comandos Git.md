@@ -34,8 +34,8 @@
 ```git status```  
 *_Monitora o estado do repositório exibindo informações como: untracked, modified, staged, informações sobre a branch, necessidade de commit, conflitos, working tree, etc..._*  
 
-```git```  
-*_X_*  
+```git remote add origin (URL do repositorio GitHub)```  
+*_Empurra um repositório local para um repositório online, neste exemplo tomamos o GitHub como padrão._*  
 
 ```git```  
 *_X_*  
