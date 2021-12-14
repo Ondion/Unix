@@ -11,7 +11,7 @@
 *_Seta de forma global as configurações de usuário do autor do repositório. ESSA CONFIG É NECESSÁRIA APENAS NO PRIMEIRO USO DO GIT NA MAQUINA._*  
 
 ```git *```  
-*_Adiciona todos os arquivos untracked e/ou modificados ao staged, passa a ser considerado tracked pelo git, ou seja, ficam prontos para o commit._*  
+*_Adiciona todos os arquivos untracked e/ou modificados ao staged, novos arquivos passam a ser considerados tracked pelo git e , ou seja, ficam prontos para o commit._*  
 
 ```git commit -m "text de identificação do commit"```  
 *_Realiza o commit no repositório local, junto com o texto descritivo sobre o conteúdo do commit._*  
