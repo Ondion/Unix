@@ -58,6 +58,11 @@
 ```git log```  
 *_Exibe o historico de commits feitos no repositório local_*  
 
+```git commit --amend```  
+*_Altera o comentário do ultimo commit enquanto ele estiver apenas local.  
+
+
+
 
 
 
