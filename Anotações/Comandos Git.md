@@ -47,7 +47,7 @@
 *_Envia os commits já staged para o repositório remoto._*  
 
 ```git fetch```  
-*__*  
+*_Analisa o repositorio remoto e procura por divergencias com o atual, caso existam, serão listadas._*  
 
 ```git pull```  
 *_Puxa do repositório remoto o ultimo commit realizado se estiver divergente do localizado local._*  
