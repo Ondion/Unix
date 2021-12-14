@@ -41,9 +41,9 @@
 *_Exibe uma lista com os repositorios remotos cadastrados._*  
 
 ```git push origin main```  
-*_X_*  
+*_Comando para o primeiro push de um repositorio local para o remoto_*  
 
-```git```  
+```git push```  
 *_X_*  
 
 ```git```  
