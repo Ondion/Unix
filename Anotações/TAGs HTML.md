@@ -1,4 +1,7 @@
 <h1 style ="text-align: center;">TAGs HTML</h1>
   
 
-```<!DOCTYPE html>```
+Informação para o cliente s
+```
+<!DOCTYPE html>
+```
