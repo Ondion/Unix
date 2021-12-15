@@ -1,0 +1,11 @@
+h1{
+    font-size: 65px;
+    color: orange;
+}
+ul{
+    background-color: green;
+}
+.p_ul{
+    color: blue;
+    font-weight: bold;
+}
