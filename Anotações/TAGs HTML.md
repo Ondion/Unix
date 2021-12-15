@@ -68,11 +68,11 @@ Quebra de linha, essa tag não tem fechamento.
 
 Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
 ```
-<p>Conteúdo
+<p>Conteúdo</p>
 ```
 <br>
 
-X
+Formata o texto em negrito, porém tem um significado semântico de importanc
 ```
 X
 ```
