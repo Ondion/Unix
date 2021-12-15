@@ -1,1 +1,0 @@
-# Dicas e c 
