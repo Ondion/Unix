@@ -50,9 +50,9 @@ TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 ```
 <br>
 
-X
+Titulos e subtitulos por ordem de importancia e tamanho da fonte, onde <h1> é o maior e mais importante e o h6 
 ```
-<h1>Titulos e subtitulos por ordem de import </h1>
+<h1>Titulos e subtitulos por ordem de importancia e tamanho da fonte, onde <h1> </h1>
 <h2> </h2>
 <h3> </h3>
 <h4> </h4>
