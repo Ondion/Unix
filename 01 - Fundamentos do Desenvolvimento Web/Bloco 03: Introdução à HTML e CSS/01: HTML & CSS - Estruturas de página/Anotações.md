@@ -5,4 +5,6 @@ HTML é uma linguagem de marcação de texto usada largamente no mundo. Foi cria
 Dentro do corpo de documento HTML, podemos encontrar, dentre outros: 
  * TAGs - Exemplos:```<tag> </tag> 
  * Atributo da TAG - Exemplo: <tag atributo="valor"> </tag>  
- * Conteúdo - Exemplo: <tag atributo="valor">Conteúdo da TAG </tag>
+ * Conteúdo - Exemplo: <tag atributo="valor">Conteúdo da TAG</tag>  
+
+ 
