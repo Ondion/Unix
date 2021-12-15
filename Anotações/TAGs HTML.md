@@ -119,14 +119,14 @@ Atributo para redimensionar a imagem no documento width="100px", também é usad
 TAG para links internos e externos.
 ```
 <a href="">Link interno, ira procurar o id="oi"</a>
-<a href="www.abc.com">Link externo, ira procurar o endereço www.abc.com
+<a href="www.abc.com">Link externo, ira procurar o endereço www.abc.com</a>
 ```
 <br>
 
 TAG para links internos e externos, usando o atributo target para abrir o link em uma nova aba.
 ```
-<a href="">Link interno, ira procurar o id="oi"</a>
-<a href="www.abc.com" target="_blank">Link externo, ira procurar o endereço www.abc.com
+<a href="" target="_blank">Link interno, ira procurar o id="oi"</a>
+<a href="www.abc.com" target="_blank">Link externo, ira procurar o endereço www.abc.com</a>
 ```
 <br>
 
