@@ -110,9 +110,9 @@ Adiciona uma imagem ao documento HTML, é necessário informar o caminho da imag
 ```
 <br>
 
-Atributo para redimensionar a imagem no documento \width="100px", também é usado o atributo \alt="descrição da imagem", para adicionar uma descrição da imagem para o usuário que ira consumir o conteúdo via texto.
+Atributo para redimensionar a imagem no documento width="100px", também é usado o atributo alt="descrição da imagem", para adicionar uma descrição da imagem para o usuário que ira consumir o conteúdo via outros meios.
 ```
-<img src="../exemplo.jpg" width="250px">
+<img src="../exemplo.jpg" width="250px" alt="descrição simplificada da imagem">
 ```
 <br>
 
