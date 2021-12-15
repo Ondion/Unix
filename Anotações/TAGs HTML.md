@@ -126,7 +126,7 @@ TAG para links internos e externos.
 TAG para links internos e externos, usando o atributo target para abrir o link em uma nova aba.
 ```
 <a href="">Link interno, ira procurar o id="oi"</a>
-<a href="www.abc.com" target="_blanck">Link externo, ira procurar o endereço www.abc.com
+<a href="www.abc.com" target="_blank">Link externo, ira procurar o endereço www.abc.com
 ```
 <br>
 
