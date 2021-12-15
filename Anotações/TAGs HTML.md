@@ -104,9 +104,9 @@ Lista de forma ordenada representada pela tag \<ol> e para cada item da lista us
 ```
 <br>
 
-X
+Adiciona uma imagem ao documento HTML.
 ```
-X
+<img>
 ```
 <br>
 
