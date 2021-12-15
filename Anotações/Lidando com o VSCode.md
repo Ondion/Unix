@@ -16,8 +16,8 @@ p * 4 - vai resultar em:
 <p> </p>
 ```
 
-**Cmd**  
-dsc.  
+**Alt + click**  
+Cria um novo ponto de entrada para cada clique .  
 
 **Cmd**  
 dsc.  
