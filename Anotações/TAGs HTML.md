@@ -118,7 +118,8 @@ Atributo para redimensionar a imagem no documento width="100px", também é usad
 
 TAG para links internos e externos.
 ```
-<a>Link interno, ira procurar o id
+<a>Link interno, ira procurar o id="oi"</a>
+<a>Link externo, ira procurar o endereço www.abc.com
 ```
 <br>
 
