@@ -15,7 +15,7 @@ Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <br>
 
-X
+O head não tem informações visiveis para o usuário, 
 ```
 <Head>
 
