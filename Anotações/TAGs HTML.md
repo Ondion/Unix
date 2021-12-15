@@ -78,7 +78,7 @@ Formata o texto em negrito, porém tem um significado semântico de importância
 ```
 <br>
 
-X
+Formata o texto em italico, porém tem um significado semântico de destaque.
 ```
 X
 ```
