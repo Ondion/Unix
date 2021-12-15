@@ -5,7 +5,14 @@ adiciona uma nova linha imediatamente abaixo do local onde o cursor estiver no m
 
 **(comando) * 3**  
 Auto-completa um comando e o multiplica pela quantidade passada como parâmetro.  
-Exemplo: 
+Exemplo:  
+```
+p * 4 - vai resultar em:  
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+```
 
 **Cmd**  
 dsc.  
