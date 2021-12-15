@@ -22,7 +22,7 @@ Html com atributo de linguagem da página.
 ```
 <br>
 
-O head não tem informações visiveis para o usuário, ele contém as configurações da página.
+O head não tem informações visiveis para o usuário, ele contém as configurações da página. Dados sobre os dados da página.
 ```
 <Head>
     Configurações como: Style, link, script, etc...
