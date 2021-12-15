@@ -87,9 +87,10 @@ Formata o texto em italico, porém tem um significado semântico de destaque.
 Lista de forma não ordenada representada pela tag \<ul> e para cada item da lista usamos a tag \<li>.
 ```
 <ul>
-    <li> </li>
-    <li> </li>
-    <li> </li>
+    <li>1 linha da lista não ordenada.</li>
+    <li>2 linha da lista não ordenada.</li>
+    <li>3 linha da lista não ordenada.</li>
+</ul>
 ```
 <br>
 
