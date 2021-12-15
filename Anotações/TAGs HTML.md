@@ -60,15 +60,15 @@ Titulos e subtitulos por ordem de importancia e tamanho da fonte, onde \<h1> é 
 <h6>Titulos e/ou subtitulo</h6>
 ```
 
-X
+Quebra de linha, essa tag não tem fechamento.
 ```
-X
+<br>
 ```
 <br>
 
-X
+Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
 ```
-X
+<p>Conteúdo
 ```
 <br>
 
