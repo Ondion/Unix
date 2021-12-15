@@ -42,7 +42,7 @@ Titulo da página que será exibido no browser.
 ```
 <br>
 
-
+TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 ```
 <body>
     Conteúdo visivel da página.
