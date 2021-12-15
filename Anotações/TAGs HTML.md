@@ -15,9 +15,10 @@ Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <br>
 
-Html com atributo 
+Html com atributo de linguagem da página.
 ```
-X
+<html lang="pt-br">
+    Conteúdo da página, agora setada para Português do Brasil
 ```
 <br>
 
