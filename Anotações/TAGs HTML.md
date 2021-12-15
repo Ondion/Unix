@@ -18,7 +18,7 @@ Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 Html com atributo de linguagem da página.
 ```
 <html lang="pt-br">
-    Conteúdo da página, agora setada para Português do Brasil
+    Conteúdo da página, agora setada para Português do Brasil.
 ```
 <br>
 
@@ -30,9 +30,9 @@ O head não tem informações visiveis para o usuário, ele contém as configura
 ```
 <br>
 
-X
+Conjunto de caracteres que serão usados na página.
 ```
-X
+<meta charset="UTF-8: >
 ```
 <br>
 
