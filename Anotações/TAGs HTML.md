@@ -15,13 +15,14 @@ Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <br>
 
-O head não tem informações visiveis para o usuário, 
+O head não tem informações visiveis para o usuário, ele contém as configurações da página.
 ```
 <Head>
-
+    Configurações como: Style, link, script, etc...
 </head>
 ```
 <br>
+
 X
 ```
 X
