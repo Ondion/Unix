@@ -6,9 +6,10 @@ Informação para o cliente sobre o tipo de documento a ser processado no browse
 <!DOCTYPE html>
 ```
 <br>
-X
+Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
-X
+<html>
+</html>
 ```
 <br>
 X
