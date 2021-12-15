@@ -104,9 +104,9 @@ Lista de forma ordenada representada pela tag \<ol> e para cada item da lista us
 ```
 <br>
 
-Adiciona uma imagem ao documento HTML.
+Adiciona uma imagem ao documento HTML, é necessário informar o caminho da imagem através do atributo src="caminho".
 ```
-<img>
+<img src=>
 ```
 <br>
 
