@@ -74,11 +74,7 @@ Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
 
 Formata o texto em negrito, porém tem um significado semântico de importância. 
 ```
-X
-```
-X
-```
-X
+<strong>Counteúdo semântico de importância!</strong>
 ```
 <br>
 
