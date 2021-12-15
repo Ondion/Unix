@@ -1,13 +1,13 @@
 <h1 style ="text-align: center;">TAGs HTML</h1>
   
 
-Informação para o cliente sobre o tipo de documento a ser processado no browser.
+**!DOCTYPE** - Informação para o cliente sobre o tipo de documento a ser processado no browser.
 ```
 <!DOCTYPE html>
 ```
 <br>
 
-Raiz da página em si, todo o conteúdo estara dentro dessa tag.
+**html** - Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <html>
     Conteúdo da página!
@@ -15,14 +15,14 @@ Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <br>
 
-Html com atributo de linguagem da página.
+**html lang** - Html com atributo de linguagem da página.
 ```
 <html lang="pt-br">
     Conteúdo da página, agora setada para Português do Brasil.
 ```
 <br>
 
-O head não tem informações visiveis para o usuário, ele contém as configurações da página. Dados sobre os dados da página.
+**head** - O head não tem informações visiveis para o usuário, ele contém as configurações da página. Dados sobre os dados da página.
 ```
 <Head>
     Configurações como: Style, link, script, etc...
@@ -30,19 +30,19 @@ O head não tem informações visiveis para o usuário, ele contém as configura
 ```
 <br>
 
-Conjunto de caracteres que serão usados na página.
+**meta charset** - Conjunto de caracteres que serão usados na página.
 ```
 <meta charset="UTF-8: >
 ```
 <br>
 
-Titulo da página que será exibido no browser.
+**title** - Titulo da página que será exibido no browser.
 ```
 <title> Titulo da página!</title>
 ```
 <br>
 
-TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
+**body** - TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 ```
 <body>
     Conteúdo visivel da página.
@@ -50,7 +50,7 @@ TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 ```
 <br>
 
-Titulos e subtitulos por ordem de importância e tamanho da fonte, onde \<h1> é o maior e mais importante e o \<h6> o menor e menos relevante.
+**h1, h2, h3, h4, h5, h6** - Titulos e subtitulos por ordem de importância e tamanho da fonte, onde \<h1> é o maior e mais importante e o \<h6> o menor e menos relevante.
 ```
 <h1>Titulos e/ou subtitulo</h1>
 <h2>Titulos e/ou subtitulo</h2>
@@ -60,31 +60,31 @@ Titulos e subtitulos por ordem de importância e tamanho da fonte, onde \<h1> é
 <h6>Titulos e/ou subtitulo</h6>
 ```
 
-Quebra de linha, essa tag não tem fechamento.
+**br** - Quebra de linha, essa tag não tem fechamento.
 ```
 <br>
 ```
 <br>
 
-Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
+**p** - Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
 ```
 <p>Conteúdo</p>
 ```
 <br>
 
-Formata o texto em negrito, porém tem um significado semântico de importância. 
+**strong** - Formata o texto em negrito, porém tem um significado semântico de importância. 
 ```
 <strong>Conteúdo semântico de importância!</strong>
 ```
 <br>
 
-Formata o texto em italico, porém tem um significado semântico de destaque.
+**em** - Formata o texto em italico, porém tem um significado semântico de destaque.
 ```
 <em>Conteúdo com destaque semântico</em>
 ```
 <br>
 
-Lista de forma não ordenada representada pela tag \<ul> e para cada item da lista usamos a tag \<li>.
+**ul, li** - Lista de forma não ordenada representada pela tag \<ul> e para cada item da lista usamos a tag \<li>.
 ```
 <ul>
     <li>1 linha da lista não ordenada.</li>
@@ -94,7 +94,7 @@ Lista de forma não ordenada representada pela tag \<ul> e para cada item da lis
 ```
 <br>
 
-Lista de forma ordenada representada pela tag \<ol> e para cada item da lista usamos a tag \<li>.
+**ol, li** - Lista de forma ordenada representada pela tag \<ol> e para cada item da lista usamos a tag \<li>.
 ```
 <ol>
     <li>1 linha da lista ordenada.</li>
@@ -104,26 +104,26 @@ Lista de forma ordenada representada pela tag \<ol> e para cada item da lista us
 ```
 <br>
 
-Adiciona uma imagem ao documento HTML, é necessário informar o caminho da imagem através do atributo src="caminho".
+**img** - Adiciona uma imagem ao documento HTML, é necessário informar o caminho da imagem através do atributo src="caminho".
 ```
 <img src="../exemplo.jpg">
 ```
 <br>
 
-Atributo para redimensionar a imagem no documento width="100px", também é usado o atributo alt="descrição da imagem", para adicionar uma descrição da imagem para o usuário que ira consumir o conteúdo via outros meios.
+**img, width, alt** - Atributo para redimensionar a imagem no documento width="100px", também é usado o atributo alt="descrição da imagem", para adicionar uma descrição da imagem para o usuário que ira consumir o conteúdo via outros meios.
 ```
 <img src="../exemplo.jpg" width="250px" alt="descrição simplificada da imagem">
 ```
 <br>
 
-TAG para links internos e externos.
+**a, href** - TAG para links internos e externos.
 ```
 <a href="#id">Link interno, ira procurar o id="oi"</a>
 <a href="www.abc.com">Link externo, ira procurar o endereço www.abc.com</a>
 ```
 <br>
 
-TAG para links internos e externos, usando o atributo target para abrir o link em uma nova aba.
+**a, target** - TAG para links internos e externos, usando o atributo target para abrir o link em uma nova aba.
 ```
 <a href="#id" target="_blank">Link interno, ira procurar o id="oi"</a>
 <a href="www.abc.com" target="_blank">Link externo, ira procurar o endereço www.abc.com</a>
