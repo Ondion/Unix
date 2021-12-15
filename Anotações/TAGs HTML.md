@@ -10,13 +10,16 @@ Informação para o cliente sobre o tipo de documento a ser processado no browse
 Raiz da página em si, todo o conteúdo estara dentro dessa tag.
 ```
 <html>
+    Conteúdo da página!
 </html>
 ```
 <br>
 
 X
 ```
-X
+<Head>
+
+</head>
 ```
 <br>
 X
