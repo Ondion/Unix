@@ -110,9 +110,9 @@ Adiciona uma imagem ao documento HTML, é necessário informar o caminho da imag
 ```
 <br>
 
-Atributo para redimensionar a imagem no documento \.
+Atributo para redimensionar a imagem no documento \width="100px".
 ```
-<img src="../exemplo.jpg" >
+<img src="../exemplo.jpg" width="250px">
 ```
 <br>
 
