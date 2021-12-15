@@ -116,9 +116,9 @@ Atributo para redimensionar a imagem no documento width="100px", também é usad
 ```
 <br>
 
-X
+TAG para links internos e externos.
 ```
-X
+<a>Link interno, ira procurar o id
 ```
 <br>
 
