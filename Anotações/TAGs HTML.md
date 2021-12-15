@@ -52,12 +52,12 @@ TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 
 X
 ```
-<h1> </h1>
-<h1> </h1>
-<h1> </h1>
-<h1> </h1>
-<h1> </h1>
-<h1> </h1>
+<h1>Titulos e subtitulos por ordem de import </h1>
+<h2> </h2>
+<h3> </h3>
+<h4> </h4>
+<h5> </h5>
+<h6> </h6>
 ```
 
 X
