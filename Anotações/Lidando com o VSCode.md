@@ -17,7 +17,22 @@ p * 4 - vai resultar em:
 ```
 
 **Alt + click**  
-Cria um novo ponto de entrada para cada clique .  
+Cria um novo ponto de entrada para cada clique do mouse neste comando, após isso, todos os pontos de entrada irão replicar o valor passado pelo teclado, para sair, tecla ESC.  
+
+**Cmd**  
+dsc.  
+
+**Cmd**  
+dsc.  
+
+**Cmd**  
+dsc.  
+
+**Cmd**  
+dsc.  
+
+**Cmd**  
+dsc.  
 
 **Cmd**  
 dsc.  
