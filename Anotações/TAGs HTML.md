@@ -50,7 +50,7 @@ TAG onde todo o conteúdo visivel, iteravel e reativo é declarada.
 ```
 <br>
 
-Titulos e subtitulos por ordem de importancia e tamanho da fonte, onde \<h1> é o maior e mais importante e o \<h6> o menor e menos relevante.
+Titulos e subtitulos por ordem de importância e tamanho da fonte, onde \<h1> é o maior e mais importante e o \<h6> o menor e menos relevante.
 ```
 <h1>Titulos e/ou subtitulo</h1>
 <h2>Titulos e/ou subtitulo</h2>
@@ -72,7 +72,7 @@ Paragrafo, Elemento *_inline_* mais comum em páginas HTML.
 ```
 <br>
 
-Formata o texto em negrito, porém tem um significado semântico de importanc
+Formata o texto em negrito, porém tem um significado semântico de importância. 
 ```
 X
 ```
