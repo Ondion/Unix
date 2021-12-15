@@ -94,9 +94,13 @@ Lista de forma não ordenada representada pela tag \<ul> e para cada item da lis
 ```
 <br>
 
-X
+Lista de forma ordenada representada pela tag \<ol> e para cada item da lista usamos a tag \<li>.
 ```
-X
+<ol>
+    <li>1 linha da lista ordenada.</li>
+    <li>2 linha da lista ordenada.</li>
+    <li>3 linha da lista ordenada.</li>
+</ol>
 ```
 <br>
 
