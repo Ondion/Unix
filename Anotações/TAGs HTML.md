@@ -80,13 +80,13 @@ Formata o texto em negrito, porém tem um significado semântico de importância
 
 Formata o texto em italico, porém tem um significado semântico de destaque.
 ```
-X
+<em>Conteúdo com destaque semântico</em>
 ```
 <br>
 
-X
+Lista de forma não ordenada.
 ```
-X
+<ul>
 ```
 <br>
 
