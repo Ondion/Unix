@@ -38,7 +38,7 @@ Conjunto de caracteres que serão usados na página.
 
 Titulo da página que será exibido no browser.
 ```
-<title>
+<title> Titulo da página!</title>
 ```
 <br>
 
