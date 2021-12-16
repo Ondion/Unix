@@ -1,16 +1,16 @@
 h1 {
-    /* font-size: 65px; */
+    font-size: 65px;
 }
 p {
-    /* font-family: monospace; */
+    font-family: monospace;
 }
 h2 {
-    /* color: green; */
-    /* font-size: 2em; */
+    color: green;
+    font-size: 2em;
 }
     body {
         background-color: rgb(255, 400, 200);
-        /* font-size: 15px; */
+        font-size: 15px;
 }
 #ex-sp {
     background-color: red;
@@ -21,9 +21,9 @@ h2 {
 .lista {
     background-color: blue;
     color: white;
-    /* font-weight: bold;
-    font-style: italic; */
-    /* line-height: 15px; */
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15px;
     text-align: center;
     text-decoration: underline;
 }

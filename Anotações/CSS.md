@@ -10,42 +10,45 @@ span{
     font-family: <parâmetro>; 
 }
 Parâmetros:
-
-    font-family: font1, font2, font3; // Passa uma lista de fonte, o browser irar executar a primeira fonte disponivel no cliente.
+    arial; - fontes presentes no cliente, ou adicionadas. 
+    arial, nospace, times; - Passa uma lista de fontes, o browser irar executar a primeira fonte disponivel no cliente.
 ```
 
 **font-size** - Especifica o tamanho da fonte.  
 ```
 span{
-    font-size: 10px; 
+    font-size: <parâmetro>; 
 }
 Parâmetros:
-    font-size: 2em; // seta a fonte em 2x a proporção do tamanho fonte da tag pai.
+    15px; - tamanho da fonte em pixels.
+    2em; // seta a fonte em 2x a proporção do tamanho fonte da tag pai.
 ```
 
 **font-weight** - Especifica a intensidade da fonte, com alterações como negrito e/ou italico.  
 ```
 span{
-    font-weight: bold; 
+    font-weight: <parâmetro>; 
 }
 Parâmetros:
-    font-weight: bolder; // 
+    bold; - Aplica negrito a fonte.  
 ```
 
 **font-style** - Aponta qual o estilo da fonte.  
 ```
 span{
-    font-style: italic; 
+    font-style: <parâmetro>; 
 }
 Parâmetros:
-    font-style: italic;
+    italic; - passa a fonte para italico.
 ```
 
 **line-height** - Especifica o tamanho de espaçamento entre as linhas.   
 ```
 span{
-    line-height: 10px; 
+    line-height: <parâmetro>; 
 }
+Parâmetros:
+    10px; - Tamanho do entre linhas em pixels.
 ```
 
 **text-align** - Alinha o texto conforme parâmetro.    
@@ -54,17 +57,17 @@ span{
     text-align: <parâmetro>; 
 }
 Parâmetros:
-    center - 
+    center - Alinha o texto no centro da caixa.
 
 ```
 
-**x** - X.  
+**text-decoration** - Aplica efeitos ao texto.  
 ```
 span{
-    X; 
+    text-decoration: <parâmetro>; 
 }
 Parâmetros:
-    x
+    underline; - Aplica o sublinhado ao texto.
 ```
 
 **x** - X.  
