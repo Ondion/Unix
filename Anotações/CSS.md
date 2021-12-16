@@ -24,12 +24,14 @@ Parâmetros:
     2em; // seta a fonte em 2x a proporção do tamanho fonte da tag pai.
 ```
 
-**font-weight** - Especifica a intensidade da fonte, com alterações como negrito e/ou italico.  
+**font-weight** - Especifica a intensidade da fonte ou "grossura" para melhor entendimento.  
 ```
 span{
     font-weight: <parâmetro>; 
 }
 Parâmetros:
+    100; - valor mais fino possivel da fonte.
+    900; - valor que já se iguala ao negrito.
     bold; - Aplica negrito a fonte.  
 ```
 
