@@ -70,22 +70,24 @@ Parâmetros:
     underline; - Aplica o sublinhado ao texto.
 ```
 
-**x** - X.  
+**background-color** - Aplica cor de fundo ao local do texto.  
 ```
 span{
-    X; 
+    background-color: <parâmetro>; 
 }
 Parâmetros:
-    x
+    blue; - nome por extenso de algumas cores.
+    rgb(200, 200, 200); - Cor pelo formato rgb.
 ```
 
-**x** - X.  
+**color** - Aplica cor ao texto.  
 ```
 span{
-    X; 
+    color: <parâmetro>; 
 }
 Parâmetros:
-    x
+    blue; - nome por extenso de algumas cores.
+    rgb(200, 200, 200); - Cor pelo formato rgb.
 ```
 
 **x** - X.  
