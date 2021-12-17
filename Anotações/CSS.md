@@ -144,7 +144,7 @@ span{
 }
 Parâmetros:
     25%; - arredonda em uma determinada porcentagem a borda.
-    10 50 100 200
+    10px 50px 100px 200px; - especifica o arredondamento de cada canto do bloco.
 ```
 
 
