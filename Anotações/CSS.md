@@ -1,7 +1,7 @@
 # Anotações sobre comandos no CSS
 
 ## Formatação de texto
-Comandos relacionados com a fonte exibida no cliente.  
+Comandos relacionados com a formatação de texto, linhas e cores.    
 <br>
 
 **font-family** - Especifica qual a fonte do texto exibido no browser
@@ -90,6 +90,7 @@ span{
 Parâmetros:
     blue; - nome por extenso de algumas cores.
     rgb(200, 200, 200); - Cor pelo formato rgb.
+    ffffff; - representação hexadecimal das cores.
 ```
 
 **x** - X.  
@@ -100,3 +101,41 @@ span{
 Parâmetros:
     x
 ```
+
+**x** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
+```
+
+**x** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
+```
+
+**x** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
+```
+
+**x** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
+```
+
+
