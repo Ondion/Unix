@@ -100,3 +100,12 @@ span{
 Parâmetros:
     x
 ```
+
+**x** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
+```
