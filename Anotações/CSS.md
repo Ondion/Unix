@@ -129,13 +129,22 @@ Parâmetros:
     x
 ```
 
-**x** - X.  
+
+
+
+## Formatação de blocos
+Comandos relacionados com a formatação de blocos, linhas e formas.    
+<br>
+
+**border-radius** - Arredonda a borda do bloco.  
 ```
 span{
-    X; 
+    border-radius: <parâmetro>;
+    border-radius: 2px solid red;
 }
 Parâmetros:
-    x
+    25%; - arredonda em uma determinada porcentagem a borda.
+    10 50 100 200
 ```
 
 
