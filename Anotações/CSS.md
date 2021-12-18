@@ -164,3 +164,23 @@ span{
 Parâmetros:
     10px 15px; - especificação das distâncias do padding.
 ```
+
+**margin** - X.  
+```
+span{
+    margin: <parâmetro>; 
+}
+Parâmetros:
+    100px; - valor em pixels do afastamento da margem.
+    auto; - distribui a margem de forma igual nos lados.
+    
+```
+
+**width** - .  
+```
+span{
+    width:<parâmetro>; 
+}
+Parâmetros:
+    30px; - atribui uma largura ao elemento.
+```
