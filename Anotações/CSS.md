@@ -102,13 +102,13 @@ Parâmetros:
     square; - muda para quadrado.
 ```
 
-**x** - X.  
+**text-decoration** - Aplica funções de estilo ao texto.  
 ```
 span{
-    X; 
+    text-decoration: <decoration>; 
 }
 Parâmetros:
-    x
+    nome; - remove o sublinhado de hyper-links
 ```
 
 **x** - X.  
