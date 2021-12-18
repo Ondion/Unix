@@ -93,10 +93,10 @@ Parâmetros:
     ffffff; - representação hexadecimal das cores.
 ```
 
-**x** - X.  
+**list-style-type** - Altera o marcador das listas em html.  
 ```
 span{
-    X; 
+    ; 
 }
 Parâmetros:
     x
