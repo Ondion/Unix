@@ -130,9 +130,9 @@
 ```
 <br>
 
-X
+**div** - Adiciona o comportamento de bloco ao seu conteúdo.  
 ```
-X
+<div>Elemento que será tratado como bloco</div>
 ```
 <br>
 
