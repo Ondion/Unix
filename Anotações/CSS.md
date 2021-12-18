@@ -136,6 +136,15 @@ Parâmetros:
 Comandos relacionados com a formatação de blocos, linhas e formas.    
 <br>
 
+**display** - Altera o modo de exibição de um elemento.  
+```
+span{
+    display: <parâmetro>; 
+}
+Parâmetros:
+    block; - altera o modo para bloco.
+```
+
 **border-radius** - Arredonda a borda do bloco.  
 ```
 span{
