@@ -204,5 +204,8 @@ span{
     overflow-y: <parâmetro>; // vertical
 }
 Parâmetros:
-    overflow:
+    auto; - Estipula automaticamente o tamanho do bloco.
+    hidden; - oculta a barra de rolagem do overflow.
 ```
+
+
