@@ -196,11 +196,13 @@ Parâmetros:
     30%; - atribui um valor variavel a depender do tamanho de exibição do cliente.
 ```
 
-**overflow** - X.  
+**overflow** - Evita que elementos em excesso vazem o tamanho do bloco.  
 ```
 span{
-    X; 
+    overflow: <parâmetro>; // para horizontal e vertical
+    overflow-x: <parâmetro>; // horizontal
+    overflow-y: <parâmetro>; // vertical
 }
 Parâmetros:
-    x
+    overflow:
 ```
