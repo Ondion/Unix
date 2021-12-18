@@ -96,10 +96,10 @@ Parâmetros:
 **list-style-type** - Altera o marcador das listas em html.  
 ```
 span{
-    ; 
+    list-style-type: <parâmetro>; 
 }
 Parâmetros:
-    x
+    square; - muda para quadrado.
 ```
 
 **x** - X.  
@@ -147,4 +147,11 @@ Parâmetros:
     10px 50px 100px 200px; - especifica o arredondamento de cada canto do bloco.
 ```
 
-
+**padding** - Define a distância do conteúdo de uma caixa e suas bordas.  
+```
+span{
+    padding: <parâmetro>; 
+}
+Parâmetros:
+    10px 15px; - especificação das distâncias do padding.
+```
