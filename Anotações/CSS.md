@@ -176,11 +176,31 @@ Parâmetros:
     
 ```
 
-**width** - .  
+**width** - Atribui a largura de um elemento.  
 ```
 span{
     width:<parâmetro>; 
 }
 Parâmetros:
-    30px; - atribui uma largura ao elemento.
+    30px; - atribui um valor fixo em pixels.
+    30%; - atribui um valor variavel a depender do tamanho de exibição do cliente.
+```
+
+**height** - Atribui a altura de um elemento.  
+```
+span{
+    height <parâmetro>; 
+}
+Parâmetros:
+    30px; - atribui um valor fixo em pixels.
+    30%; - atribui um valor variavel a depender do tamanho de exibição do cliente.
+```
+
+**overflow** - X.  
+```
+span{
+    X; 
+}
+Parâmetros:
+    x
 ```

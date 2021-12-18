@@ -136,9 +136,9 @@
 ```
 <br>
 
-X
+**span** - Adiciona o comportamento de linha ao seu conteúdo.  
 ```
-X
+<span>Elemento que será tratado como linha</div>
 ```
 <br>
 
