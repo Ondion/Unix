@@ -111,27 +111,6 @@ Parâmetros:
     nome; - remove o sublinhado de hyper-links
 ```
 
-**x** - X.  
-```
-span{
-    X; 
-}
-Parâmetros:
-    x
-```
-
-**x** - X.  
-```
-span{
-    X; 
-}
-Parâmetros:
-    x
-```
-
-
-
-
 ## Formatação de blocos
 Comandos relacionados com a formatação de blocos, linhas e formas.    
 <br>
@@ -238,3 +217,11 @@ Parâmetros:
 Comandos relacionados com a formatação de texto, linhas e cores.  
 <br>
 
+**position** - posiciona um elemento conforme parâmetro.  
+```
+span{
+    position <parâmetro>; 
+}
+Parâmetros:
+    absolute; - coloca o elemento a frente de todos os outros.
+```
