@@ -272,3 +272,13 @@ Parâmetros:
     1; - coloca o elemento a frente de todos os outros por ser o primeiro.
     2; - coloca o elemento a frente de todos os outros exceto o primeiro.
 ```
+
+**float** - Faz um elemento flutuar pelas caixas de elementos vizinhos.  
+```
+span{
+    float: <parâmetro>;
+}
+Parâmetros:
+    top;
+    bottom;
+    
