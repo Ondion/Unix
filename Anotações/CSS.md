@@ -155,6 +155,32 @@ Parâmetros:
     25%; - arredonda em uma determinada porcentagem a borda.
     10px 50px 100px 200px; - especifica o arredondamento de cada canto do bloco.
 ```
+**border-width** - X.  
+```
+span{
+    border-width: <parâmetro>; 
+}
+Parâmetros:
+    x
+```
+
+**border-style** - X.  
+```
+span{
+    border-style: <parâmetro>; 
+}
+Parâmetros:
+    x
+```
+
+**border-color** - X.  
+```
+span{
+    border-color: <parâmetro>; 
+}
+Parâmetros:
+    x
+```
 
 **padding** - Define a distância do conteúdo de uma caixa e suas bordas.  
 ```
