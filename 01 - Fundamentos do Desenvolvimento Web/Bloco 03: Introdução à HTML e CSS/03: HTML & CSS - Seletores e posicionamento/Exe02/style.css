@@ -1,12 +1,14 @@
 .super-mario{
     width: 200px;
+    
 }
 .goomba{
     width: 100px;
-    
+    float: left;
+    margin-top: 300px;
 }
 .baloon{
-    
+
 }
 .speach{
     font-size: 25px;
