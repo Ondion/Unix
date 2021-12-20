@@ -224,6 +224,7 @@ span{
 }
 Parâmetros:
     absolute; - coloca o elemento a frente de todos os outros.
+    fixed; - coloca o elemento a frente e faz a rolagem junto a página.
 ```
 
 **top** - altera o posicionamento vertical pelo topo de um elemento.  
