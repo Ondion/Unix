@@ -226,7 +226,7 @@ Parâmetros:
     absolute; - coloca o elemento a frente de todos os outros.
 ```
 
-**top** - altera o posicionamento vertical de um elemento.  
+**top** - altera o posicionamento vertical pelo topo de um elemento.  
 ```
 span{
     top: <parâmetro>; 
@@ -251,4 +251,23 @@ span{
 }
 Parâmetros:
     10px; - altera a posição por pixels.
+```
+
+**bottom** - altera o posicionamento vertical um elemento a partir da parte baixa.  
+```
+span{
+    bottom: <parâmetro>; 
+}
+Parâmetros:
+    10px; - altera a posição por pixels.
+```
+
+**z-index** - altera a ordem absoluta de um elemento.  
+```
+span{
+    z-index: <parâmetro>; 
+}
+Parâmetros:
+    1; - coloca o elemento a frente de todos os outros por ser o primeiro.
+    2; - coloca o elemento a frente de todos os outros exceto o primeiro.
 ```
