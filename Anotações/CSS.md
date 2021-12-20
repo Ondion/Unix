@@ -155,7 +155,7 @@ Parâmetros:
     25%; - arredonda em uma determinada porcentagem a borda.
     10px 50px 100px 200px; - especifica o arredondamento de cada canto do bloco.
 ```
-**border-width** - X.  
+**border-width** - Especifica a largura da borda.  
 ```
 span{
     border-width: <parâmetro>; 
@@ -164,7 +164,7 @@ Parâmetros:
     x
 ```
 
-**border-style** - X.  
+**border-style** - Controle de estilo da linha da borda.  
 ```
 span{
     border-style: <parâmetro>; 
@@ -173,7 +173,7 @@ Parâmetros:
     x
 ```
 
-**border-color** - X.  
+**border-color** - Controle de cor da borda.  
 ```
 span{
     border-color: <parâmetro>; 
