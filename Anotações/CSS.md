@@ -279,6 +279,8 @@ span{
     float: <parâmetro>;
 }
 Parâmetros:
-    top;
-    bottom;
-    
+    top; - posiciona o elemento acima da caixa vizinha.
+    bottom; - posiciona o elemento abaixo da caixa vizinha.
+    right; - posiciona o elemento a direita da caixa vizinha.
+    left; - posiciona o elemento a esquerda da caixa vizinha.
+```
