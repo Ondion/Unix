@@ -225,3 +225,30 @@ span{
 Parâmetros:
     absolute; - coloca o elemento a frente de todos os outros.
 ```
+
+**top** - altera o posicionamento vertical de um elemento.  
+```
+span{
+    top: <parâmetro>; 
+}
+Parâmetros:
+    10px; - altera a posição por pixels.
+```
+
+**left** - altera o posicionamento horizontal pela esquerda de um elemento.  
+```
+span{
+    left: <parâmetro>; 
+}
+Parâmetros:
+    10px; - altera a posição por pixels.
+```
+
+**right** - altera o posicionamento horizontal pela direita de um elemento.  
+```
+span{
+    right: <parâmetro>; 
+}
+Parâmetros:
+    10px; - altera a posição por pixels.
+```
