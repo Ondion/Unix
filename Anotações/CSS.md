@@ -234,4 +234,7 @@ Parâmetros:
     hidden; - oculta a barra de rolagem do overflow.
 ```
 
+## Posicionamento de elementos
+Comandos relacionados com a formatação de texto, linhas e cores.  
+<br>
 
