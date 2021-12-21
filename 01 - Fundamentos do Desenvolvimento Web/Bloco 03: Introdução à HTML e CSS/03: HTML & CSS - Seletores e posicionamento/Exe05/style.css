@@ -26,6 +26,10 @@ li em{
     font-weight: bold;
 }
 
-ul li:nth-child(1){
+ul:nth-of-type(1) li:nth-child(1), ul:nth-of-type(1) li:nth-child(2), ul:nth-of-type(1) li:nth-child(3){
     color: blue;
+}
+
+ul:nth-of-type(1) li:nth-child("java*"){
+    color: pink;
 }
