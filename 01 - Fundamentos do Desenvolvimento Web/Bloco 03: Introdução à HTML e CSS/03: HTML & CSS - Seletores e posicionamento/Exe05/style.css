@@ -9,7 +9,23 @@ ol li:nth-child(even){
 ol li:nth-child(odd){
     text-transform: uppercase;
 }
-h1, h2, h3, h4, h5, h6:first-child{
-    color: pink;
+
+h1, h2, h3, h4, h5, h6{
+    color: red;
 }
 
+h1 em{
+    font-size: 40px;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+ul li:nth-child(1){
+    color: blue;
+}
