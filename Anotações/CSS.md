@@ -287,3 +287,21 @@ Parâmetros:
 ## pseudo-classes  
 <br>
 
+**:hover** - Executa o bloco assim que o mouse passar por cima do elemento listado.
+```
+div:hover{
+    <parâmetros>
+}
+```
+<br>
+
+**:active** - Executa o bloco assim que o elemento listado for ativado (receber um clique).
+```
+div:active{
+    <parâmetros>
+}
+```
+<br>
+
+
+
