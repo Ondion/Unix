@@ -284,3 +284,6 @@ Parâmetros:
     right; - posiciona o elemento a direita da caixa vizinha.
     left; - posiciona o elemento a esquerda da caixa vizinha.
 ```
+## pseudo-classes  
+<br>
+
