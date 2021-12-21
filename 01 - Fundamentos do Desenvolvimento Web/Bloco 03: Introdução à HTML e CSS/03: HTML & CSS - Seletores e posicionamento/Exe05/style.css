@@ -30,6 +30,7 @@ ul:nth-of-type(1) li:nth-child(1), ul:nth-of-type(1) li:nth-child(2), ul:nth-of-
     color: blue;
 }
 
-ul:nth-of-type(1) li:nth-child("java*"){
+ul:nth-of-type(1){
     color: pink;
 }
+
