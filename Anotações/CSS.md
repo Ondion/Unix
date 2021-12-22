@@ -122,6 +122,7 @@ span{
 }
 Parâmetros:
     block; - altera o modo para bloco.
+    inline-block; - comportamento hibrido, alinhados em linha com demais funções de bloco.
 ```
 
 **border-radius** - Arredonda a borda do bloco.  
@@ -312,6 +313,18 @@ Parâmetros:
     right; - posiciona o elemento a direita da caixa vizinha.
     left; - posiciona o elemento a esquerda da caixa vizinha.
 ```
+
+**vertical-align** - Alinha elementos de forma vertical.  
+```
+span{
+    vertical-align: <parâmetro>;
+}
+Parâmetros:
+    top; - alinha os elementos pela parte superior
+    bottom - realiza o alinhamento pela parte inferior
+    middle; - alinhamento ao centro
+```
+
 ## pseudo-classes  
 <br>
 
