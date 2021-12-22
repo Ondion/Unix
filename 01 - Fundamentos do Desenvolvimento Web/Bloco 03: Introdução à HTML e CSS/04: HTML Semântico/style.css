@@ -1,0 +1,23 @@
+header{
+    background-color: rosybrown;
+    text-align: center;
+    text-decoration: b;
+    padding: 50px;
+    margin-bottom: 15px;
+    border: solid red 3px;
+}
+nav{
+    background-color: silver;
+}
+article{
+    background-color: teal;
+}
+section{
+    background-color: cadetblue;
+}
+aside{
+    background-color: cyan;
+}
+footer{
+    background-color: lightslategrey;
+}
