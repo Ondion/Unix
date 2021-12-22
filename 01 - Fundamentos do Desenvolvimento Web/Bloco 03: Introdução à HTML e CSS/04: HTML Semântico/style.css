@@ -15,6 +15,7 @@ nav{
     border: solid red 3px;
 }
 article{
+    display:inline-block;
     background-color: teal;
     padding: 150px;
     font-weight: bold;
@@ -26,10 +27,10 @@ section{
     background-color: cadetblue;
 }
 aside{
-    background-color: cyan;
-    padding: 0px 50px 320px; 
+    display: inline-block;
+    background-color: cyan; 
     float: right;
-    margin-top: -350px;
+    padding: 5%
 }
 footer{
     background-color: lightslategrey;
