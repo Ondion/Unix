@@ -34,15 +34,15 @@ h1 {
     width: 300px;
   }
 
-  ul:nth-child(2){
-    border: solid red 3px;
+  ul:nth-child(2) li{
+    display: inline;
     display:;
   }
 
-  ul:nth-child(4){
-    border: solid red 3px;
+  ul:nth-child(4) li{
+    display: inline;
   }
 
-  ul:nth-child(6){
-    border: solid red 3px;
+  ul:nth-child(6) li{
+    display: inline;
   }
