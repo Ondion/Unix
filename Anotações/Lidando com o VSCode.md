@@ -19,8 +19,8 @@ p * 4 - vai resultar em:
 **Alt + click**  
 Cria um novo ponto de entrada para cada clique do mouse neste comando, após isso, todos os pontos de entrada irão replicar o valor passado pelo teclado, para sair, tecla ESC.  
 
-**Cmd**  
-dsc.  
+**tag#id**  
+Cria a tag html e a ID ou Classe automaticamente junto a sua abertura e fechamento.  
 
 **Cmd**  
 dsc.  

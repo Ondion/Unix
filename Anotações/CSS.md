@@ -216,7 +216,7 @@ Parâmetros:
 **background-image** - Aplica uma imagem de fundo ao elemento.  
 ```
 div{
-    background-image: <parâmetro>
+    background-image: <parâmetro>;
 }
 Parâmetros:
     url(<caminho>); - caminho para a imagem a ser aplicada como fundo.
@@ -225,10 +225,20 @@ Parâmetros:
 **background-size** - Altera o tamanho de uma imagem de elemento.  
 ```
 div{
-    background-size: <parâmetro>
+    background-size: <parâmetro>;
 }
 Parâmetros:
     cover; - altera o tamanho da imagem para cobrir o container.
+```
+
+**background-position** - Altera a posição de uma imagem de elemento.  
+```
+div{
+    background-position: <parâmetro>;
+}
+Parâmetros:
+    center; - centraliza a imagem em relação ao container.
+    10% 10%; - ajuste de imagem pr porcentagem horizontal e vertical.
 ```
 
 ## Posicionamento de elementos
