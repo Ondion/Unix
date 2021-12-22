@@ -1,22 +1,35 @@
 header{
     background-color: rosybrown;
     text-align: center;
-    text-decoration: b;
+    font-weight: bold;
     padding: 50px;
     margin-bottom: 15px;
     border: solid red 3px;
 }
 nav{
     background-color: silver;
+    margin-bottom: 15px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    border: solid red 3px;
 }
 article{
     background-color: teal;
+    padding: 150px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 20%;
+
 }
 section{
     background-color: cadetblue;
 }
 aside{
     background-color: cyan;
+    padding: 0px 50px 320px; 
+    float: right;
+    margin-top: -350px;
 }
 footer{
     background-color: lightslategrey;
