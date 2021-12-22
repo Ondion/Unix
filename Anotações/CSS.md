@@ -213,6 +213,24 @@ Parâmetros:
     hidden; - oculta a barra de rolagem do overflow.
 ```
 
+**background-image** - Aplica uma imagem de fundo ao elemento.  
+```
+div{
+    background-image: <parâmetro>
+}
+Parâmetros:
+    url(<caminho>); - caminho para a imagem a ser aplicada como fundo.
+```
+
+**background-size** - Altera o tamanho de uma imagem de elemento.  
+```
+div{
+    background-size: <parâmetro>
+}
+Parâmetros:
+    cover; - altera o tamanho da imagem para cobrir o container.
+```
+
 ## Posicionamento de elementos
 Comandos relacionados com a formatação de texto, linhas e cores.  
 <br>
