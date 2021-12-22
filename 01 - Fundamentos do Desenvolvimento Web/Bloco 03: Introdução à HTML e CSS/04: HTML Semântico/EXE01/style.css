@@ -1,0 +1,48 @@
+*{
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+    text-align: center;
+  }
+
+  .first {
+    margin: auto;
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .second {
+    display: inline-block;
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .third {
+    display: inline-block;
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+  }
+
+  ul:nth-child(2){
+    border: solid red 3px;
+    display:;
+  }
+
+  ul:nth-child(4){
+    border: solid red 3px;
+  }
+
+  ul:nth-child(6){
+    border: solid red 3px;
+  }
