@@ -1,6 +1,6 @@
 // Programa que retorna o se um determinado número é positivo, negativo ou zero.
 
-let a = -0;
+let a = 1;
 
 if (a > 0){
     console.log("positivo");
