@@ -5,9 +5,8 @@ let b = 3;
 let c = 3;
 
 
-if(lineA < (lineB + lineC) && lineB < (lineA + lineC) && lineC < (lineA + lineB)){
-    return true
+if(a < (b + c) && b < (a + c) && c < (a + b)){
+    console.log("true")
 } else{
-    return false
-}   
-
+    console.log("false")
+}
