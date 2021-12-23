@@ -22,8 +22,8 @@ Cria um novo ponto de entrada para cada clique do mouse neste comando, após iss
 **tag#id**  
 Cria a tag html e a ID ou Classe automaticamente junto a sua abertura e fechamento.  
 
-**Cmd**  
-dsc.  
+**Ctrl + Shift + l**  
+Adiciona um multicusor aos elementos selecionados, facilitando a edição de todos eles ao mesmo tempo.  
 
 **Cmd**  
 dsc.  
