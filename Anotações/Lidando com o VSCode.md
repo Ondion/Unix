@@ -25,8 +25,8 @@ Cria a tag html e a ID ou Classe automaticamente junto a sua abertura e fechamen
 **Ctrl + Shift + l**  
 Adiciona um multicusor aos elementos selecionados, facilitando a edição de todos eles ao mesmo tempo.  
 
-**Cmd**  
-dsc.  
+**Ctrl + `**  
+Abre o terminal integrado.    
 
 **Cmd**  
 dsc.  
