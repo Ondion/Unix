@@ -3,4 +3,5 @@ console.log(document.getElementById("elementoOndeVoceEsta").parentNode.style.bac
 console.log(document.getElementById("primeiroFilhoDoFilho").innerText = "Texto adicionado conforme EXE 3.");
 console.log(document.getElementById("pai").firstElementChild);
 console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibling);
-console.log();
+console.log(document.getElementById("elementoOndeVoceEsta").nextSibling);
+console.log(document.getElementById("elementoOndeVoceEsta").parentElement);
