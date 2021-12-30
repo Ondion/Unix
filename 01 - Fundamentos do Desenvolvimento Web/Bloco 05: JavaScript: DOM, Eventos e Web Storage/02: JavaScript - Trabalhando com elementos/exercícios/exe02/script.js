@@ -1,1 +1,1 @@
-console.log(document.getElementById("primeiroFilhoDoFilho").appendChild(document.createElement("div")).innerText = "oi");
+console.log("EXE 1", document.getElementById("elementoOndeVoceEsta"))
