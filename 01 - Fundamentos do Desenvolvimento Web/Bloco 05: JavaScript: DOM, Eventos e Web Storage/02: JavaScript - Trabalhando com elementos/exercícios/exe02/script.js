@@ -1,3 +1,2 @@
-console.log();
+console.log(document.createElement("strong").innerText = "oi");
 
-document.getElementById("primeiroFilhoDoFilho").appendChild(document.createElement("strong")).innerText = "oi"
