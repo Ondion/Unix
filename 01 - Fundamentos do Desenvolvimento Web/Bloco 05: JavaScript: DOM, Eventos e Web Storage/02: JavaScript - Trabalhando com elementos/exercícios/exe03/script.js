@@ -1,0 +1,1 @@
+console.log("EXE 1", document.getElementById("paiDoPai").removeChild(document.getElementById("primeiroFilho")));
