@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Calendário</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Meu Calendário</h1>
+    </header>
+
+    <main>
+      <header class="month-container">
+        <ul>
+          <li id="month">Novembro</li>
+          <li id="year">2020</li>
+        </ul>
+      </header>
+
+      <section class="week-days-container">
+        <ol class="week-days"></ol>
+      </section>
+
+      <section class="days-container">
+        <ol id="days"></ol>
+      </section>
+
+      <section class="controls-container">
+        <button id="btn-holiday">Feriados</button>
+        <button id="btn-friday">Sextou</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+
+    <script>
+      document.getElementById('month').innerText = Date();
+
+      function alteraCor(elementos, cor) {
+        // document.querySelectorAll(elementos).style.backgroundColor = cor;
+        let list = document.querySelectorAll(elementos);
+        for (let index = 0; index < list.length; index += 1) {
+          list[index].style.backgroundColor = cor;
+        }
+      }
+
+      alteraCor('.friday-day', 'cyan');
+
+    </script>
+  </body>
+</html>
