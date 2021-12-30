@@ -9,5 +9,3 @@ document.getElementById("pai").removeChild(document.getElementById("terceiroFilh
 document.getElementById("pai").removeChild(document.getElementById("quartoEUltimoFilho")),
 
 );
-
-console.log(document.getElementById("pai").innerText = "");
