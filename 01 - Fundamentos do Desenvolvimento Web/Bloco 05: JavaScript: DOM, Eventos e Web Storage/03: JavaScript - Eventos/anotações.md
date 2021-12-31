@@ -13,5 +13,3 @@ Esses *_Eventos_* dão dinamismo a página e podem ser disparados pelo próprio 
 ## Inline event handlers  
 
 ## Escutador de eventos ou event listener  
-
-## f
