@@ -5,9 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
+    <h1>Exercícios</h1>
+    <form action="" method="get" id="idForm">
+        <label for="idInput">Seu nome?</label>
+        <input type="text" name="entradaTexto" id="idInput" placeholder="Entrada de Texto!" required>
+        <br>
+        <textarea name="" id="textArea" cols="40" rows="10">Texto já estabelecido!</textarea>
+        <br>
+        <button type="submit" id="idBotao">Enviar</button>
+        <br><br><br>
+
+        <input type="checkbox" name="check" id="idcheckBox1" value="ola" name="checkBox" checked> Olá,
+        <br>
+        <input type="checkbox" name="check" id="idcheckBox2" value="tudo" name="checkBox" checked> tudo
+        <br>
+        <input type="checkbox" name="check" id="idcheckBox3" value="bem" name="checkBox" checked> bem?
+        <br><br><br>
+
+        <input type="radio" name="radio1" id="idRadio1">indo
+        <input type="radio" name="radio1" id="idRadio2">bem
+        <input type="radio" name="radio1" id="idRadio3">obrigado
+
+        <label for="idRadio4"><input type="radio" name="radio1" id="idRadio4">Teste label > inputRadio</label>
+        <br><br><br>
+
+        <select name="nomeSelect" id="idSelect" required>
+            <option value="null"></option>
+            <option value="value1">Valor 01</option>
+            <option value="value2">Valor 02</option>
+            <option value="value3">Valor 03</option>
+            <option value="value4">Valor 04</option>
+            <option value="value5">Valor 05</option>
+            <option value="value6">Valor 06</option>
+            <option value="value7">Valor 07</option>
+            <option value="value8">Valor 08</option>
+            <option value="value9">Valor 09</option>
+        </select>
+
+
+    </form>
     
 <script src="script.js"></script>
 </body>
