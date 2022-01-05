@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 6.1</title>
+</head>
+<body>
+    <header class="speaker-form-header">
+        <h1>Submeter Palestra</h1>
+        <p><em>Quer palestrar na nossa conferência? Preencha o formulário!</em></p>
+    </header>
+    <main>
+        <form action="" method="get" class="speaker-form">
+            <div class="form-row">
+                <div class="line-content">
+                    <label for="full-name">Nome Completo:</label>
+                    <input type="text" name="full-name" id="full-name" required>
+                </div>
+            </div>
+            <div class="line-content">
+                <fieldset class="legacy-form-row">
+                    <legend>Tipo da Palestra: </legend>
+                    <input type="radio" name="talk-type" id="talk-type-1" value="main-stage" required>
+                    <label for="talk-type-1">Palco Principal</label>
+                    <input type="radio" name="talk-type" id="talk-type-2" value="workshop">
+                    <label for="talk-type-2">Workshop</label>
+                </fieldset>
+            </div>
+            <div class="line-content">
+                <label for="t-shirt">Tamanho da camisa:</label>
+                <select name="t-shirt" id="t-shirt" required>
+                    <option value=""></option>
+                    <option value="p">Pequeno</option>
+                    <option value="m">Médio</option>
+                    <option value="g">Grande</option>
+                </select>
+            </div>
+            <div class="line-content">
+                <label for="abstract">Resumo da palestra:</label>
+                <textarea name="text-abstract" id="abstract" cols="30" rows="10" placeholder="Explique o conteúdo da sua palestra" required></textarea>
+            </div>
+            <div class="line-content">
+                <input type="checkbox" name="is-available" id="available" required>
+                <label for="available">Confirmo que estou disponível na data do evento.</label>
+            </div>
+            <div class="line-content">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

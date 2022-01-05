@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Mantém o tamanho do elemento não importante o tamanho do conteúdo!*/
+}
+
+body {
+    color: rgb(93, 96, 99);
+    background-color: rgb(234, 237, 240);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.speaker-form-header {
+    text-align: center;
+    background-color: rgb(246, 247, 248);
+    border: solid 2px rgb(214, 217, 220);
+    border-radius: 3px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.speaker-form-header h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.speaker-form{
+    background-color: rgb(246,247,248);
+    border: solid rgb(214, 217, 220) 2px;
+    border-radius: 3px;
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto 40px auto;
+}
+
+.form-row{
+    margin-bottom: 40px;
+}
+
+.form-row input[type="text"]{
+    background-color: white;
+    border: solid 2px rgb(214, 217, 220);
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label{
+    margin-bottom: 15px;
+}
+
+.legacy-form-row{
+    padding: 10px;
+}
+
+.line-content{
+    margin: 20px;
+    border: 0 none;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 15px;
+}
+
+button{
+    padding: 5px;
+}
+
+#talk-type-1, #talk-type-2{
+    display: flexbox;
+    justify-content: space-between;
+}
