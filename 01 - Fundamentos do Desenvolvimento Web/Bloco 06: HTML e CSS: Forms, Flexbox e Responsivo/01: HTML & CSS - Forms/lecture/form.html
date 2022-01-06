@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Submeter Palestra</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header class="speaker-form-header">
+      <h1>Submeter Palestra</h1>
+      <p><em>Quer palestrar na nossa conferência? Preencha o formulário!</em></p>
+    </header>
+
+    <main>
+      
+      <form action="" method="get" class="speaker-form">
+        <!-- input - full-name -->
+
+        <div class="form-row">
+          <div class="line-content">
+            <label for="full-name">Nome Completo: </label>
+            <input required type="text" name="full-name" id="full-name">
+          </div>
+        </div>
+        
+        <!-- fieldset - type-of-talk   -->
+
+        <div class="line-content">
+          <fieldset class="legacy-form-row">
+            <legend>Tipo da palestra: </legend>
+            <input type="radio" name="talk-type" id="talk-type-1" value="main-stage">
+            <label for="talk-type-1">Palco Principal</label>
+            <input type="radio" name="talk-type" id="talk-type-2" value="workshop">
+            <label for="talk-type-2">Workshop</label>
+          </fieldset>
+        </div>
+
+        <!-- select - t-shirt-size -->
+
+        <div class="line-content">
+          <label for="">Tamanho da camisa:</label>
+          <select name="t-shirt" id="t-shirt">
+            <option value="p">Pequeno</option>
+            <option value="m">Médio</option>
+            <option value="g">Grande</option>
+          </select>
+        </div>
+
+        <!-- textarea - abstract  -->
+
+        <div class="line-content">
+          <label for="abstract">Resumo da palestra: </label>
+          <textarea name="" id="abstract" cols="30" rows="10" placeholder="Explique o conteúdo da sua palestra"></textarea>
+        </div>
+
+        <!-- checkbox - available -->
+
+        <div class="line-content">
+          <input type="checkbox" name="is-available" id="available">
+          <label for="available"> Confirmo que estou disponível na data do evento.</label>
+        </div>
+
+        <!-- button - submit -->
+
+        <div class="line-content">
+          <button type="submit">Enviar</button>
+        </div>
+
+      </form>
+    </main>
+  </body>
+</html>
+
+full-name=Caique+Coelho
+&talk-type=main-stage
+&t-shirt=m
+&is-available=on
