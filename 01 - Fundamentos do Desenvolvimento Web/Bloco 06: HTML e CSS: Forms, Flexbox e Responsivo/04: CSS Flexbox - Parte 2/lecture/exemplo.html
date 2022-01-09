@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 6.4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        .container {
+            border: 2px solid black;
+            height: 300px;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            /* align-content: flex-start; */
+            /* flex-wrap: wrap; */
+        }
+        .box {
+            /* width: 200px; */
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+            flex-basis: 150px;
+            flex-grow: 1;
+        }
+        .a {
+            background-color: lightblue;
+            align-self: flex-start;
+            order: 1;
+            flex-shrink: 4;
+            flex-grow: 4;
+        }
+        .b {
+            background-color: lightcoral;
+            flex-basis: 200px;
+            align-self: flex-end;
+            order: 2;
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+        .c {
+            background-color: lightgreen;
+        }
+        .d {
+            background-color: lightsalmon;
+            align-self: stretch;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+    </div>
+</body>
+</html>
