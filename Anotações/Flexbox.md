@@ -1,14 +1,4 @@
-<div style="
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-">
-    <div>oi</div>
-    <br>
-    <div>oi</div>
-    <br>
-    <div>oi</div>
-    <br>
-    <div>oi</div>
-</div>
+# FlexBox - (Flexible Box
+*_É um módulo para organização eficiente de items e espaços em um container, mesmo quando seu tamanho é indefinido._*   
+<br>  
+

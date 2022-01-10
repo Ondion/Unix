@@ -9,3 +9,4 @@ O layout flexível tem como principio dar a habilidade de alterar o tamanho de e
 
 ### Flex Axis:  
 O layout do Flexbox é baseado em *_flex-direction_*. As direções são determinadas por eixos (axis)
+
