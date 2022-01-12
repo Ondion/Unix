@@ -27,6 +27,7 @@ body {
   }
   
   p.trick {
+    border: solid red 3px;
     color: white;
     font-size: 14px;
   }
@@ -41,11 +42,13 @@ body {
   }
   
   .cards {
+    border: solid red 3px;
     display: flex;
     flex-flow: row wrap;
   }
   
   .card {
+    border: solid red 3 px;
     border-radius: 5px;
     color: white;
     display: none;
@@ -57,6 +60,7 @@ body {
   }
   
   .card:nth-of-type(1) {
+    /* border: solid red 1px; */
     background-color: #0fa36b;
   }
   
