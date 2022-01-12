@@ -1,0 +1,67 @@
+#title{
+    text-align: center;
+}
+
+#color-palette{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#black{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: black;
+}
+
+#red{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+}
+
+#green{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+}
+
+#blue{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+}
+
+#pixel-board{
+    margin: auto;
+    /* border: 0px; */
+    /* padding: auto; */
+    /* text-align: center; */
+    line-height: 0;
+    border: solid red 3px;
+}
+
+.pixel{
+    display: inline-block;
+    background-color: white;
+    border: solid black 1px;
+}
+
+#botao{
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* .selected{
+    
+} */
+
+/* .color{
+    
+} */

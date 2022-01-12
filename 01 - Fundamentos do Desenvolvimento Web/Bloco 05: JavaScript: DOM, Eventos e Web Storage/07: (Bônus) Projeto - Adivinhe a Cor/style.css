@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(240,240,240);
+}
+
+div, #answer{
+    display: flex;
+    justify-content: center;
+}
+
+#div-title{
+    flex-direction: column;
+    align-items: center;
+}
+
+#feita-mao{
+    margin-top: 1px;
+}
+
+#rgb-color{
+    margin-bottom: 1px;
+}
+
+.ball{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+    margin-left: 3px;
+    margin-left: 3px;
+}
+
+#answer{
+    font-size: x-large;
+    font-weight: bold;
+}
