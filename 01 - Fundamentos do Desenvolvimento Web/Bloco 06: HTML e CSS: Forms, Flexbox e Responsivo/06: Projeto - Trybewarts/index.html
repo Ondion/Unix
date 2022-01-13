@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeWarts</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" height="80px" alt="">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form action="" method="GET" class="trybewarts-login">
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Email">
+      <label for="password"></label>
+      <input type="password" name="password" id="password" placeholder="Senha">
+      <button type="submit" id="entrar">Entrar</button>
+    </form>
+  </header>
+
+  <main>
+    <form id="evaluation-form" action="">
+      <div class="cointainer">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="input-name" placeholder="Nome">
+        <label for="last-name">Sobrenome</label>
+        <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
+      </div>
+      <div class="container">
+        <label for="name">Email</label>
+        <input type="text" name="email" id="input-email" placeholder="Email">
+        <select name="house" id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </div>
+      <p id="label-family">Qual sua família?</p>
+      <label for="Frontend"><input type="radio" name="family" id="Frontend" value="Frontend">
+        Frontend
+      </label>
+      <label name="family"><input type="radio" name="family" id="Backend" value="Backend">
+        Backend
+      </label>
+      <label name="family"><input type="radio" name="family" id="FullStack" value="FullStack">
+        FullStack
+      </label>
+      </label>
+      <p id="label-content">Qual conteúdo você está com mais vontade de aprender?</p>
+      <label for="HoFs"><input type="checkbox" name="subject" id="HoFs" value="HoFs" class="subject">
+        HoFs
+      </label>
+      <label for="Jest"><input type="checkbox" name="subject" id="Jest" value="Jest" class="subject">
+        Jest
+      </label>
+      <label for="Promises"><input type="checkbox" name="subject" id="Promises" value="Promises" class="subject">
+        Promises
+      </label>
+      <label for="React"><input type="checkbox" name="subject" id="React" value="React" class="subject">
+        React
+      </label>
+      <label for="SQL"><input type="checkbox" name="subject" id="SQL" value="SQL" class="subject">
+        SQL
+      </label>
+      <label for="Python"><input type="checkbox" name="subject" id="Python" value="Python" class="subject">
+        Python
+      </label>
+      <div id="label-rate2">
+        <p id="label-rate">Como você avalia a Trybewarts?</p>
+      </div>
+      <label for="textarea" class="textarea">Deixe seu comentário:</label>
+      <textarea name="textarea" id="textarea" cols="30" rows="10" class="textarea" maxlength="500"></textarea>
+      <!-- requisito 15 -->
+      <span id="counter">500</span><!-- requisito 20 -->
+      <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
+        <input type="checkbox" name="agreement" id="agreement"><!-- requisito 16 e 18 -->
+      </label>
+      <button type="submit" id="submit-btn" disabled>Enviar</button> <!-- requisito 17 e 18 -->
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" height="500px" alt="">
+  </main>
+
+  <footer>Direitos reservados à Trybewarts©</footer><!-- requisito 19 -->
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

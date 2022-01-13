@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header { /* Header com flexbox */
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between; /* alinhamento dos 3 componentes do header */
+  align-items: center;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;/* alinha a logo principal a direita do formulário */
+}
+
+#label-rate2 {
+  display: flex;
+  align-items: center;
+}
+
+footer { /* requisito 19 */
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  color: white;
+}
