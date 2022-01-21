@@ -1,11 +1,11 @@
 // const sum = (a, b) => {return '5';}
 
-let array = [1,2,3]
+// let array = [1,2,3]
 
 
-it('sums two values', () => {
-  expect(array).toEqual([1,2,3]);
-});
+// it('sums two values', () => {
+//   expect(array).toEqual([1,2,3]);
+// });
 
 // let letTeste = 5;
 // let letTesteCopia = letTeste;
@@ -55,3 +55,13 @@ it('sums two values', () => {
 
 // console.log('objeto original', objeto);
 // console.log('copia do objeto', copiaObjeto);
+
+
+// function sub (a, b){
+//   return a - b;
+// }
+
+
+// test("teste que a função x retorna valores inteiros", () =>{
+//   expect(sub(9, 3)).toBeGreaterThan(50)
+// })
