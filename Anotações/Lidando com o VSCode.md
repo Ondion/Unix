@@ -28,8 +28,8 @@ Adiciona um multicusor aos elementos selecionados, facilitando a edição de tod
 **Ctrl + `**  
 Abre o terminal integrado.    
 
-**Cmd**  
-dsc.  
+**Ctrl + Shift + p**  
+Abre uma janela com comandos e seu respectivos atalhos.  
 
 **Cmd**  
 dsc.  
