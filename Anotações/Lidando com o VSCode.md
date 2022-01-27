@@ -31,8 +31,8 @@ Abre o terminal integrado.
 **Ctrl + Shift + p**  
 Abre uma janela com comandos e seu respectivos atalhos.  
 
-**Cmd**  
-dsc.  
+**clg**  
+Adiciona a função console.log ao código.  
 
 **Cmd**  
 dsc.  
