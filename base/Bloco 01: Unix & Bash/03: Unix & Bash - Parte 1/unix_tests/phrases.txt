@@ -1,9 +1,0 @@
-Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.
-Busque pelas frases que não contenham a palavra fox .
-Conte o número de palavras do arquivo phrases.txt .
-Conte o número de linhas do arquivo phrases.txt .
-Crie os arquivos empty.tbt e empty.pdf .
-Liste todos os arquivos do diretório unix_tests .
-Liste todos os arquivos que terminem com txt .
-Liste todos os arquivos que terminem com tbt ou txt .
-Acesse o manual do comando ls .
