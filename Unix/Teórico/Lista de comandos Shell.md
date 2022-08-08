@@ -180,10 +180,10 @@ Faz uma busca de comandos que realizem a condição especificada, a busca é rea
 Comando para recuperar informações por meio de URL.
 
 ```df``` | ```exemplo: df```  
-Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual.  
+Exibe informações sobre o tamanho, espaço disponível e usado do drive do sistema atual.  
 
 ```df -h``` | ```exemplo: df```  
-Exibe informações sobre o tamanho, espaço disponivel e usado do drive do sistema atual atualizando as informações de bytes para MB e GB.  
+Exibe informações sobre o tamanho, espaço disponível e usado do drive do sistema atual atualizando as informações de bytes para MB e GB.  
 
 ```diff``` | ```exemplo: diff arquivo1.txt arquivo2.txt```  
 Exibe a diferença entre dois arquivos.  
@@ -249,7 +249,7 @@ Descompacta arquivos no formato zip.
 Organiza em ordem alfabética, por linhas, o conteúdo do arquivo, não modifica o arquivo original.  
 
 ```bc``` | ```bc```   
-Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de comando para os calculos.  
+Abre uma calculadora no terminal, é necessário o uso das sintaxes de linha de comando para os cálculos.  
 
 ```nano``` | ```exemplo: nano arquivo.txt```  
 Abre um editor de texto no terminal.  
@@ -285,7 +285,26 @@ Ordena o arquivo passado como primeiro parâmetro e, posteriormente, cria ou sob
 Ordena o arquivo passado como primeiro parâmetro e, posteriormente, adiciona o resultado ao segundo arquivo.  
 
 ```who``` | ```exemplo: who```  
-Exibe informações sobre o usuário local e permissões de grupo.  
+Exibe informações sobre o usuário local.  
+
+```chmod <grupo><operação><permissão> <file>``` | ```chmod  a-rw arquivo.txt```  
+Altera a permissão rwx de um arquivo, conforme grupo, operação e permissão:  
+ * GRUPOS:  
+ * u - usuário do acesso
+ * g - grupo local
+ * o - outros usuários
+ * a - todos os grupos de acesso  
+   <br>  
+ * OPERAÇÕES:  
+ * *_-_* Sinal de menos, retira as permissões
+ * *_+_* Sinal de mais, adiciona as permissões
+ * *_=_* Sinal de igual, deixa as permissões conforme passada no parâmetro  
+  
+   <br>  
+ * PERMISSÕES:  
+ * *_r_* Permissão para leitura
+ * *_w_* Permissão para escrita
+ * *_x_* Permissão para acesso e/ou execução  
 
 ```chmod``` | ```chmod xxx arquivo```  
 Altera a permissão rwx de um arquivo, conforme tabela:  
@@ -301,11 +320,14 @@ Altera a permissão rwx de um arquivo, conforme tabela:
 ```ps``` | ```ps```  
 Exibe uma lista de processos em execução.  
 
+```^z``` | ```Ctrl z```  
+Pausa um processo em execução no foreground.  
+
 ```sleep``` | ```sleep 5```  
-Pausa as execuções de processos pelo periodo em segundos passados como parâmetro.  
+Pausa as execuções de processos pelo período em segundos passados como parâmetro.  
 
 ```sleep &``` | ```sleep 5 &```  
-Pausa as execuções de processos pelo periodo em segundos passados como parâmetro e coloca esse processo em background.  
+Pausa as execuções de processos pelo período em segundos passados como parâmetro e coloca esse processo em background.  
 
 ```bg``` | ```bg```  
 Coloca um processo que atualmente está em foreground para background.  

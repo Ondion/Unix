@@ -1,14 +1,18 @@
-# Unix
+# Unix  
+Unix foi lançando em 1969 por Kem Thompson, Dennis Ritche, dentre outros.  
+Foi feito em C e Assembly.  
+Hoje o Unix ganhou muitas variações tais como o Linux e o MacOs.  
 
-### PID - Process Identifier  
-Todo PID carrega as seguintes informações:
- - Usuário proprietário do processo.  
- - A sessão do shell.  
- - Estado.  
- - Linha de comando.  
- - Dentre outras informações.  
-   
-# Arquivos  
-No unix todos os arquivos e pastas salvas são considerados arquivos.  
-'/' a barra é chamada de root, é a base do sistema.  
-  
+Basicamente o Unix se divide em três partes:  
+
+**Kernel** que é responsavel pela integração entre o hardware e software.  
+
+**Shell** é a interface que faz a integração entre o sistema operacional, o usuário e o kernel. Exemplos de Shells:   
+
+    * SH  
+    * BASH  
+    * CSH  
+    * TCSH  
+    * ZSH  
+
+**Aplicativos**, que são os softwares e rotinas utilizados no sistema operacional.  
